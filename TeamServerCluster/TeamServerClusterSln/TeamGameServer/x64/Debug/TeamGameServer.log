@@ -1,0 +1,629 @@
+﻿生成启动时间为 2016/1/6 13:35:22。
+     1>项目“E:\TeamServerCluster\TeamServerClusterSln\TeamGameServer\TeamGameServer.vcxproj”在节点 4 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I..\..\TeamSDK\BaseInterface /I..\..\Protocols /I..\..\TeamSDK\Lib\third_lib\mysql\windows\include /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /FR"x64\Debug\\" /Gd /TP /errorReport:prompt ..\..\TeamSource\TeamGS\GameServer\FrameWork\BaseDefine.cpp ..\..\TeamSource\TeamGS\GameServer\FrameWork\CenterClient.cpp ..\..\TeamSource\TeamGS\GameServer\FrameWork\ConfigFile.cpp ..\..\TeamSource\TeamGS\GameServer\FrameWork\DataBuffer.cpp ..\..\TeamSource\TeamGS\GameServer\FrameWork\DBClient.cpp ..\..\TeamSource\TeamGS\GameServer\FrameWork\DBLogClient.cpp ..\..\TeamSource\TeamGS\GameServer\FrameWork\GameApplication.cpp ..\..\TeamSource\TeamGS\GameServer\FrameWork\GameServer.cpp ..\..\TeamSource\TeamGS\GameServer\FrameWork\GameService.cpp ..\..\TeamSource\TeamGS\GameServer\FrameWork\HttpLinkApplication.cpp ..\..\TeamSource\TeamGS\GameServer\FrameWork\main.cpp ..\..\TeamSource\TeamGS\GameServer\FrameWork\PlayerClient.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Card\Card.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\DBCache\DBHallEntity\DBHallEntity.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\DBCache\DBHallEntity\DBHallEntityManager.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\DBCache\DBHallHandler.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\DBCache\DBManager.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\GameFormula\GameFormula.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\GameHall.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasGame\TexasGame.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasGame\TexasGameEntity.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasGame\TexasGameManager.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasGame\TexasGameMsgDealerReq.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasGame\TexasGameMsgDealerRes.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasGame\TexasGameMsgDealerSync.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasGame\TexasGameMsgReq.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasGame\TexasGameMsgRes.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasGame\TexasGameMsgSync.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasGame\TexasGame_DBScene.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasGame\TexasGame_DLScene.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasRole\TexasRole.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasRole\TexasRoleEntity.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasRole\TexasRoleMsgRes.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasRole\TexasRoleMsgSync.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasRoom\TexasRoom.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasRoom\TexasRoomManager.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Girl\Girl.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Girl\GirlManager.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Httplink\HttpLinkEvent.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Httplink\HttpLinkFB.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Httplink\HttpLinkManager.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Httplink\HttpLinkYY.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Message\CSMessage\CSMessage.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Message\CSMessage\CSMessage_Broadcast.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Message\CSMessage\CSMessage_GameRole.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Message\CSMessage\CSMessage_GameScene.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Message\CSMessage\CSMessage_HallRoom.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Message\CSMessage\CSMessage_UserLogin.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Message\DBMessage\DBMessage.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Message\DBMessage\DBMessage_PrizePool.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Message\DBMessage\DBMessage_Role.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Message\DBMessage\DBMessage_TexasBoard.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Message\DBMessage\DBMessage_TexasHistoryBoard.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Message\DLMessage\DLMessage.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Message\DLMessage\DLMessage_TexasGameBet.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Message\DLMessage\DLMessage_UserLogin.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Message\DLMessage\DLMessage_UserLogout.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Message\GameMessage.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Message\GCMessage\GCMessage.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Message\GSMessage\GSMessage.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Message\GSMessage\GSMessage_GameScene.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Message\GSMessage\GSMessage_GirlLogin.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Message\GSMessage\GSMessage_HallRoom.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Message\GTMessage\GTMessage.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Message\GTMessage\GTMessage_Ping.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Message\HGSMessage\HGSMessage.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Message\PSMessage\PSMessage.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Message\PSMessage\PSMessage_GameScene.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Message\WSSMessage\WSSMessage.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\PrizePool\PrizePool.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Resource\JsonTable\TableBetTea\TableBetTea.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Resource\JsonTable\TableBroadcast\TableBroadcast.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Resource\JsonTable\TableGift\TableGift.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Resource\JsonTable\TableLimit\TableLimit.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Resource\ResourceManager.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Role\Role.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Role\RoleAttr.cpp ..\..\TeamSource\TeamGS\GameServer\Logic\Role\RoleManager.cpp
+         RoleManager.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         RoleAttr.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         Role.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\role\role.cpp(155): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\role\role.cpp(219): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+         ResourceManager.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         TableLimit.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         TableGift.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         TableBroadcast.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         TableBetTea.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         PrizePool.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         WSSMessage.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         PSMessage_GameScene.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         PSMessage.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         HGSMessage.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         GTMessage_Ping.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         GTMessage.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         GSMessage_HallRoom.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         GSMessage_GirlLogin.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         GSMessage_GameScene.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         GSMessage.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         GCMessage.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         正在生成代码...
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\role\role.cpp(194): warning C4715: “CRole::GetUpdatePlatformRoleBaseInfo”: 不是所有的控件路径都返回值
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\role\rolemanager.cpp(87): warning C4715: “CRoleManager::SetDeleteRole”: 不是所有的控件路径都返回值
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\role\rolemanager.cpp(230): warning C4715: “CRoleManager::Get_MD5_RoleIdToken”: 不是所有的控件路径都返回值
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\role\rolemanager.cpp(212): warning C4715: “CRoleManager::GetUpdatePlatformRoleBaseInfo”: 不是所有的控件路径都返回值
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\role\rolemanager.cpp(248): warning C4715: “CRoleManager::GetGameType”: 不是所有的控件路径都返回值
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\role\rolemanager.cpp(265): warning C4715: “CRoleManager::GetRoomId”: 不是所有的控件路径都返回值
+         正在编译...
+         GameMessage.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         DLMessage_UserLogout.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         DLMessage_UserLogin.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         DLMessage_TexasGameBet.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         DLMessage.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         DBMessage_TexasHistoryBoard.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         DBMessage_TexasBoard.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         DBMessage_Role.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         DBMessage_PrizePool.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         DBMessage.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         CSMessage_UserLogin.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         CSMessage_HallRoom.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         CSMessage_GameScene.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         CSMessage_GameRole.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         CSMessage_Broadcast.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         CSMessage.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         HttpLinkYY.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         HttpLinkManager.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         HttpLinkFB.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\httplink\httplinkfb.cpp(212): warning C4101: “sMaxCardType”: 未引用的局部变量
+         HttpLinkEvent.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\httplink\httplinkevent.cpp(46): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\httplink\httplinkevent.cpp(59): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+         正在生成代码...
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\httplink\httplinkmanager.cpp(120): warning C4715: “CHttpLinkManager::GetHttpLinkYY”: 不是所有的控件路径都返回值
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\httplink\httplinkmanager.cpp(128): warning C4715: “CHttpLinkManager::GetHttpLinkFB”: 不是所有的控件路径都返回值
+         正在编译...
+         GirlManager.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         Girl.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         TexasRoomManager.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         TexasRoom.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         TexasRoleMsgSync.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         TexasRoleMsgRes.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         TexasRoleEntity.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         TexasRole.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         TexasGame_DLScene.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         TexasGame_DBScene.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         TexasGameMsgSync.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgamemsgsync.cpp(115): warning C4804: “>”: 在操作中使用类型“bool”不安全
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgamemsgsync.cpp(180): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgamemsgsync.cpp(330): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         TexasGameMsgRes.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         TexasGameMsgReq.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         TexasGameMsgDealerSync.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         TexasGameMsgDealerRes.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         TexasGameMsgDealerReq.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         TexasGameManager.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         TexasGameEntity.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         TexasGame.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         GameHall.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         正在生成代码...
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.cpp(166): warning C4715: “CTexasGame::CheckRole”: 不是所有的控件路径都返回值
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.cpp(194): warning C4715: “CTexasGame::GetMaxBetWaitTime”: 不是所有的控件路径都返回值
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasrole\texasrole.cpp(180): warning C4715: “CTexasRole::GetMaxHandCard”: 不是所有的控件路径都返回值
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasrole\texasrole.cpp(188): warning C4715: “CTexasRole::GetThirdId”: 不是所有的控件路径都返回值
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasrole\texasrole.cpp(196): warning C4715: “CTexasRole::GetUserNameA”: 不是所有的控件路径都返回值
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\girl\girlmanager.cpp(92): warning C4715: “CGirlManager::GetGirlName”: 不是所有的控件路径都返回值
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\girl\girlmanager.cpp(118): warning C4715: “CGirlManager::LeaveRooom”: 不是所有的控件路径都返回值
+         正在编译...
+         GameFormula.cpp
+         DBManager.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         DBHallHandler.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgc\centerserver\logic\servermanager\gameserver.h(11): warning C4091: “typedef ”: 没有声明变量时忽略“HallRoomOnlineStatics”的左侧
+         DBHallEntityManager.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         DBHallEntity.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         Card.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\card\card.cpp(232): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\card\card.cpp(707): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         PlayerClient.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         main.cpp
+     1>c:\program files (x86)\windows kits\8.1\include\um\imagehlp.h(1873): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
+     1>c:\program files (x86)\windows kits\8.1\include\um\imagehlp.h(3519): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
+         HttpLinkApplication.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         GameService.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         GameServer.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\framework\gameserver.cpp(88): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\framework\gameserver.cpp(99): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         GameApplication.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamgs\gameserver\logic\gamehall\texas\texasgame\texasgame.h(238): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         DBLogClient.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         DBClient.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         DataBuffer.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         ConfigFile.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         CenterClient.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         BaseDefine.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"x64\Debug\TeamGameServer.res" TeamGameServer.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(E:\TeamServerCluster\TeamServerClusterSln\x64\Debug\TeamGameServer.exe) does not match the Linker's OutputFile property value (E:\TeamServerCluster\Bin\Platform\Windows\X64\Debug\TeamGameServer.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\Bin\Platform\Windows\X64\Debug\TeamGameServer.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\TeamSDK\Lib\native_lib\Platform\Windows\X64\Debug /LIBPATH:..\..\TeamSDK\Lib\third_lib\mysql\windows\lib\X64 TeamUtil.lib TeamNet.lib libmysql.lib zlib.lib libssh2.lib ssleay32.lib libeay32.lib libcurl.lib Ext3rdPlus.lib winmm.lib wldap32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\TeamServerCluster\TeamServerClusterSln\x64\Debug\TeamGameServer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\TeamServerCluster\TeamServerClusterSln\x64\Debug\TeamGameServer.lib" /MACHINE:X64 x64\Debug\TeamGameServer.res
+         x64\Debug\BaseDefine.obj
+         x64\Debug\CenterClient.obj
+         x64\Debug\ConfigFile.obj
+         x64\Debug\DataBuffer.obj
+         x64\Debug\DBClient.obj
+         x64\Debug\DBLogClient.obj
+         x64\Debug\GameApplication.obj
+         x64\Debug\GameServer.obj
+         x64\Debug\GameService.obj
+         x64\Debug\HttpLinkApplication.obj
+         x64\Debug\main.obj
+         x64\Debug\PlayerClient.obj
+         x64\Debug\Card.obj
+         x64\Debug\DBHallEntity.obj
+         x64\Debug\DBHallEntityManager.obj
+         x64\Debug\DBHallHandler.obj
+         x64\Debug\DBManager.obj
+         x64\Debug\GameFormula.obj
+         x64\Debug\GameHall.obj
+         x64\Debug\TexasGame.obj
+         x64\Debug\TexasGameEntity.obj
+         x64\Debug\TexasGameManager.obj
+         x64\Debug\TexasGameMsgDealerReq.obj
+         x64\Debug\TexasGameMsgDealerRes.obj
+         x64\Debug\TexasGameMsgDealerSync.obj
+         x64\Debug\TexasGameMsgReq.obj
+         x64\Debug\TexasGameMsgRes.obj
+         x64\Debug\TexasGameMsgSync.obj
+         x64\Debug\TexasGame_DBScene.obj
+         x64\Debug\TexasGame_DLScene.obj
+         x64\Debug\TexasRole.obj
+         x64\Debug\TexasRoleEntity.obj
+         x64\Debug\TexasRoleMsgRes.obj
+         x64\Debug\TexasRoleMsgSync.obj
+         x64\Debug\TexasRoom.obj
+         x64\Debug\TexasRoomManager.obj
+         x64\Debug\Girl.obj
+         x64\Debug\GirlManager.obj
+         x64\Debug\HttpLinkEvent.obj
+         x64\Debug\HttpLinkFB.obj
+         x64\Debug\HttpLinkManager.obj
+         x64\Debug\HttpLinkYY.obj
+         x64\Debug\CSMessage.obj
+         x64\Debug\CSMessage_Broadcast.obj
+         x64\Debug\CSMessage_GameRole.obj
+         x64\Debug\CSMessage_GameScene.obj
+         x64\Debug\CSMessage_HallRoom.obj
+         x64\Debug\CSMessage_UserLogin.obj
+         x64\Debug\DBMessage.obj
+         x64\Debug\DBMessage_PrizePool.obj
+         x64\Debug\DBMessage_Role.obj
+         x64\Debug\DBMessage_TexasBoard.obj
+         x64\Debug\DBMessage_TexasHistoryBoard.obj
+         x64\Debug\DLMessage.obj
+         x64\Debug\DLMessage_TexasGameBet.obj
+         x64\Debug\DLMessage_UserLogin.obj
+         x64\Debug\DLMessage_UserLogout.obj
+         x64\Debug\GameMessage.obj
+         x64\Debug\GCMessage.obj
+         x64\Debug\GSMessage.obj
+         x64\Debug\GSMessage_GameScene.obj
+         x64\Debug\GSMessage_GirlLogin.obj
+         x64\Debug\GSMessage_HallRoom.obj
+         x64\Debug\GTMessage.obj
+         x64\Debug\GTMessage_Ping.obj
+         x64\Debug\HGSMessage.obj
+         x64\Debug\PSMessage.obj
+         x64\Debug\PSMessage_GameScene.obj
+         x64\Debug\WSSMessage.obj
+         x64\Debug\PrizePool.obj
+         x64\Debug\TableBetTea.obj
+         x64\Debug\TableBroadcast.obj
+         x64\Debug\TableGift.obj
+         x64\Debug\TableLimit.obj
+         x64\Debug\ResourceManager.obj
+         x64\Debug\Role.obj
+         x64\Debug\RoleAttr.obj
+         x64\Debug\RoleManager.obj
+         TeamGameServer.vcxproj -> E:\TeamServerCluster\TeamServerClusterSln\x64\Debug\TeamGameServer.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\bscmake.exe /nologo /o"E:\TeamServerCluster\TeamServerClusterSln\x64\Debug\TeamGameServer.bsc" /n x64\Debug\BaseDefine.sbr x64\Debug\CenterClient.sbr x64\Debug\ConfigFile.sbr x64\Debug\DataBuffer.sbr x64\Debug\DBClient.sbr x64\Debug\DBLogClient.sbr x64\Debug\GameApplication.sbr x64\Debug\GameServer.sbr x64\Debug\GameService.sbr x64\Debug\HttpLinkApplication.sbr x64\Debug\main.sbr x64\Debug\PlayerClient.sbr x64\Debug\Card.sbr x64\Debug\DBHallEntity.sbr x64\Debug\DBHallEntityManager.sbr x64\Debug\DBHallHandler.sbr x64\Debug\DBManager.sbr x64\Debug\GameFormula.sbr x64\Debug\GameHall.sbr x64\Debug\TexasGame.sbr x64\Debug\TexasGameEntity.sbr x64\Debug\TexasGameManager.sbr x64\Debug\TexasGameMsgDealerReq.sbr x64\Debug\TexasGameMsgDealerRes.sbr x64\Debug\TexasGameMsgDealerSync.sbr x64\Debug\TexasGameMsgReq.sbr x64\Debug\TexasGameMsgRes.sbr x64\Debug\TexasGameMsgSync.sbr x64\Debug\TexasGame_DBScene.sbr x64\Debug\TexasGame_DLScene.sbr x64\Debug\TexasRole.sbr x64\Debug\TexasRoleEntity.sbr x64\Debug\TexasRoleMsgRes.sbr x64\Debug\TexasRoleMsgSync.sbr x64\Debug\TexasRoom.sbr x64\Debug\TexasRoomManager.sbr x64\Debug\Girl.sbr x64\Debug\GirlManager.sbr x64\Debug\HttpLinkEvent.sbr x64\Debug\HttpLinkFB.sbr x64\Debug\HttpLinkManager.sbr x64\Debug\HttpLinkYY.sbr x64\Debug\CSMessage.sbr x64\Debug\CSMessage_Broadcast.sbr x64\Debug\CSMessage_GameRole.sbr x64\Debug\CSMessage_GameScene.sbr x64\Debug\CSMessage_HallRoom.sbr x64\Debug\CSMessage_UserLogin.sbr x64\Debug\DBMessage.sbr x64\Debug\DBMessage_PrizePool.sbr x64\Debug\DBMessage_Role.sbr x64\Debug\DBMessage_TexasBoard.sbr x64\Debug\DBMessage_TexasHistoryBoard.sbr x64\Debug\DLMessage.sbr x64\Debug\DLMessage_TexasGameBet.sbr x64\Debug\DLMessage_UserLogin.sbr x64\Debug\DLMessage_UserLogout.sbr x64\Debug\GameMessage.sbr x64\Debug\GCMessage.sbr x64\Debug\GSMessage.sbr x64\Debug\GSMessage_GameScene.sbr x64\Debug\GSMessage_GirlLogin.sbr x64\Debug\GSMessage_HallRoom.sbr x64\Debug\GTMessage.sbr x64\Debug\GTMessage_Ping.sbr x64\Debug\HGSMessage.sbr x64\Debug\PSMessage.sbr x64\Debug\PSMessage_GameScene.sbr x64\Debug\WSSMessage.sbr x64\Debug\PrizePool.sbr x64\Debug\TableBetTea.sbr x64\Debug\TableBroadcast.sbr x64\Debug\TableGift.sbr x64\Debug\TableLimit.sbr x64\Debug\ResourceManager.sbr x64\Debug\Role.sbr x64\Debug\RoleAttr.sbr x64\Debug\RoleManager.sbr
+     1>已完成生成项目“E:\TeamServerCluster\TeamServerClusterSln\TeamGameServer\TeamGameServer.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:01:50.39

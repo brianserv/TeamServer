@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{0d7ee78e-68a9-4057-8ce0-fc796a7aa63c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic">
+      <UniqueIdentifier>{9aee6a8b-3f6b-4b3d-bcf7-37c7b2c1710e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\DBCache">
+      <UniqueIdentifier>{b8a5d362-a6c1-46f3-a7cd-5f9c51fdcbbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Message">
+      <UniqueIdentifier>{a6da9b66-7ef8-4c1e-b0a8-2ac274312f74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Resource">
+      <UniqueIdentifier>{5f611192-b6fe-4137-8961-6017a10ac805}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Table">
+      <UniqueIdentifier>{00c43658-aa2c-46b5-bd1d-5c542db73db5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\TeamSource\TeamDB\DBServer\FrameWork\BaseDefine.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDB\DBServer\FrameWork\ConfigFile.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDB\DBServer\FrameWork\DataBuffer.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDB\DBServer\FrameWork\DBApplication.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDB\DBServer\FrameWork\DBServer.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDB\DBServer\FrameWork\DBService.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDB\DBServer\FrameWork\main.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDB\DBServer\FrameWork\PlayerClient.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDB\DBServer\Logic\DBCache\DBManager.cpp">
+      <Filter>Logic\DBCache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDB\DBServer\Logic\DBCache\DBPrizePoolHandler.cpp">
+      <Filter>Logic\DBCache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDB\DBServer\Logic\DBCache\DBRoleHandler.cpp">
+      <Filter>Logic\DBCache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDB\DBServer\Logic\DBCache\DBTexasBoardHandler.cpp">
+      <Filter>Logic\DBCache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDB\DBServer\Logic\DBCache\DBTexasHistoryBoard10Handler.cpp">
+      <Filter>Logic\DBCache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDB\DBServer\Logic\Message\DBMessage.cpp">
+      <Filter>Logic\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDB\DBServer\Logic\Message\DBMessage_Ping.cpp">
+      <Filter>Logic\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDB\DBServer\Logic\Message\DBMessage_PrizePool.cpp">
+      <Filter>Logic\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDB\DBServer\Logic\Message\DBMessage_Role.cpp">
+      <Filter>Logic\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDB\DBServer\Logic\Message\DBMessage_TexasBoard.cpp">
+      <Filter>Logic\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDB\DBServer\Logic\Message\DBMessage_TexasHistoryBoard10.cpp">
+      <Filter>Logic\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDB\DBServer\Logic\Resource\DBPrizePoolData.cpp">
+      <Filter>Logic\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDB\DBServer\Logic\Resource\DBResourceManager.cpp">
+      <Filter>Logic\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDB\DBServer\Logic\Resource\DBRoleData.cpp">
+      <Filter>Logic\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDB\DBServer\Logic\Resource\DBTexasBoardData.cpp">
+      <Filter>Logic\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDB\DBServer\Logic\Resource\DBTexasHistoryBoard10Data.cpp">
+      <Filter>Logic\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDB\DBServer\Logic\Table\DBPrizePool.cpp">
+      <Filter>Logic\Table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDB\DBServer\Logic\Table\DBRole.cpp">
+      <Filter>Logic\Table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDB\DBServer\Logic\Table\DBTexasBoard.cpp">
+      <Filter>Logic\Table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDB\DBServer\Logic\Table\DBTexasHistoryBoard10.cpp">
+      <Filter>Logic\Table</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\TeamSource\TeamDB\DBServer\FrameWork\BaseDefine.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamDB\DBServer\FrameWork\ConfigFile.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamDB\DBServer\FrameWork\DataBuffer.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamDB\DBServer\FrameWork\DBApplication.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamDB\DBServer\FrameWork\DBServer.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamDB\DBServer\FrameWork\DBService.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamDB\DBServer\FrameWork\PlayerClient.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamDB\DBServer\Logic\DBCache\DBManager.h">
+      <Filter>Logic\DBCache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamDB\DBServer\Logic\Message\DBmessage.h">
+      <Filter>Logic\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamDB\DBServer\Logic\Resource\DBResourceManager.h">
+      <Filter>Logic\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamDB\DBServer\Logic\Table\DBPrizePool.h">
+      <Filter>Logic\Table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamDB\DBServer\Logic\Table\DBRole.h">
+      <Filter>Logic\Table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamDB\DBServer\Logic\Table\DBTexasBoard.h">
+      <Filter>Logic\Table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamDB\DBServer\Logic\Table\DBTexasHistoryBoard10.h">
+      <Filter>Logic\Table</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TeamDBServer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\x64\Debug\DB.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

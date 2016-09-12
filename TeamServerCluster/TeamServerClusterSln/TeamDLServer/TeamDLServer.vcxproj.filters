@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{1d081307-0ec4-400e-a1d8-6438599106f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic">
+      <UniqueIdentifier>{eabf3e2d-7478-4d7c-9d51-0b629a3d3c94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\DBCache">
+      <UniqueIdentifier>{0bbb2a77-7806-472f-bcd2-2414273c87c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Message">
+      <UniqueIdentifier>{0b3f97d6-2a0e-4c0d-8ff9-d91ed652fe2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Table">
+      <UniqueIdentifier>{7f9beae5-8fe6-46e9-bf20-74b2e49e4454}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\FrameWork\BaseDefine.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\FrameWork\ConfigFile.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\FrameWork\DataBuffer.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\FrameWork\DLApplication.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\FrameWork\DLServer.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\FrameWork\DLService.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\FrameWork\main.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\FrameWork\PlayerClient.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\DBCache\DLBetHandler.cpp">
+      <Filter>Logic\DBCache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\DBCache\DLGmHandler.cpp">
+      <Filter>Logic\DBCache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\DBCache\DLLoginHandler.cpp">
+      <Filter>Logic\DBCache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\DBCache\DLLogoutHandler.cpp">
+      <Filter>Logic\DBCache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\DBCache\DLManager.cpp">
+      <Filter>Logic\DBCache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\DBCache\DLOnlineHandler.cpp">
+      <Filter>Logic\DBCache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\DBCache\DLPvgGiftHandler.cpp">
+      <Filter>Logic\DBCache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\DBCache\DLPvpGiftHandler.cpp">
+      <Filter>Logic\DBCache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\DBCache\DLRoomHandler.cpp">
+      <Filter>Logic\DBCache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\DBCache\DLTraceHandler.cpp">
+      <Filter>Logic\DBCache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Message\DLMessage.cpp">
+      <Filter>Logic\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Message\DLMessage_Bet.cpp">
+      <Filter>Logic\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Message\DLMessage_GM.cpp">
+      <Filter>Logic\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Message\DLMessage_Login.cpp">
+      <Filter>Logic\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Message\DLMessage_Logout.cpp">
+      <Filter>Logic\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Message\DLMessage_Online.cpp">
+      <Filter>Logic\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Message\DLMessage_Ping.cpp">
+      <Filter>Logic\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Message\DLMessage_PvgGift.cpp">
+      <Filter>Logic\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Message\DLMessage_PvpGift.cpp">
+      <Filter>Logic\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Message\DLMessage_Room.cpp">
+      <Filter>Logic\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Message\DLMessage_Trace.cpp">
+      <Filter>Logic\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Table\DLBet.cpp">
+      <Filter>Logic\Table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Table\DLGm.cpp">
+      <Filter>Logic\Table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Table\DLLogin.cpp">
+      <Filter>Logic\Table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Table\DLLogout.cpp">
+      <Filter>Logic\Table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Table\DLOnline.cpp">
+      <Filter>Logic\Table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Table\DLPvgGift.cpp">
+      <Filter>Logic\Table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Table\DLPvpGift.cpp">
+      <Filter>Logic\Table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Table\DLRoom.cpp">
+      <Filter>Logic\Table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Table\DLTrace.cpp">
+      <Filter>Logic\Table</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\TeamSource\TeamDL\DLServer\FrameWork\BaseDefine.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamDL\DLServer\FrameWork\ConfigFile.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamDL\DLServer\FrameWork\DataBuffer.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamDL\DLServer\FrameWork\DLApplication.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamDL\DLServer\FrameWork\DLServer.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamDL\DLServer\FrameWork\DLService.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamDL\DLServer\FrameWork\PlayerClient.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamDL\DLServer\Logic\DBCache\DLManager.h">
+      <Filter>Logic\DBCache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamDL\DLServer\Logic\Message\DLMessage.h">
+      <Filter>Logic\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamDL\DLServer\Logic\Table\DLBet.h">
+      <Filter>Logic\Table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamDL\DLServer\Logic\Table\DLGm.h">
+      <Filter>Logic\Table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamDL\DLServer\Logic\Table\DLLogin.h">
+      <Filter>Logic\Table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamDL\DLServer\Logic\Table\DLLogout.h">
+      <Filter>Logic\Table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamDL\DLServer\Logic\Table\DLOnline.h">
+      <Filter>Logic\Table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamDL\DLServer\Logic\Table\DLPvgGift.h">
+      <Filter>Logic\Table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamDL\DLServer\Logic\Table\DLPvpGift.h">
+      <Filter>Logic\Table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamDL\DLServer\Logic\Table\DLRoom.h">
+      <Filter>Logic\Table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamDL\DLServer\Logic\Table\DLTrace.h">
+      <Filter>Logic\Table</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TeamDLServer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\x64\Debug\log.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

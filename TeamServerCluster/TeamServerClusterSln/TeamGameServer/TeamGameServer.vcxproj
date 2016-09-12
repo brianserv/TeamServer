@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9C30CBA9-9C84-40DE-90EE-ECD642DAD5C2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>TeamGameServer</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\TeamSDK\BaseInterface;..\..\Protocols;..\..\TeamSDK\Lib\third_lib\mysql\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>TeamUtil.lib;TeamNet.lib;libmysql.lib;zlib.lib;libssh2.lib;ssleay32.lib;libeay32.lib;libcurl.lib;Ext3rdPlus.lib;winmm.lib;wldap32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\TeamSDK\Lib\native_lib\Platform\Windows\X64\Debug;..\..\TeamSDK\Lib\third_lib\mysql\windows\lib\X64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OutputFile>..\..\Bin\Platform\Windows\X64\Debug\$(ProjectName).exe</OutputFile>
+    </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\BaseDefine.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\CenterClient.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\ConfigFile.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\DataBuffer.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\DBClient.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\DBLogClient.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\GameApplication.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\GameServer.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\GameService.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\HttpLinkApplication.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\PlayerClient.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Card\Card.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Common\GameEnum.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Common\GameMacro.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Common\GameStructure.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\DBCache\DBHallEntity\DBHallEntity.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\DBCache\DBHallEntity\DBHallEntityManager.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\DBCache\DBManager.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameFormula\GameFormula.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\GameHall.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasGame\TexasGame.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasGame\TexasGameManager.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasRole\TexasRole.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasRoom\TexasRoom.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasRoom\TexasRoomManager.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Girl\Girl.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Girl\GirlManager.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Httplink\HttpLinkBase.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Httplink\HttpLinkEvent.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Httplink\HttpLinkFB.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Httplink\HttpLinkManager.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Httplink\HttpLinkYY.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\CSMessage\CSMessage.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\DBMessage\DBMessage.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\DLMessage\DLMessage.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\GameMessage.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\GCMessage\GCMessage.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\GSMessage\GSMessage.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\GTMessage\GTMessage.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\HGSMessage\HGSMessage.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\PSMessage\PSMessage.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\WSSMessage\WSSMessage.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\PrizePool\PrizePool.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Resource\JsonTable\TableBetTea\TableBetTea.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Resource\JsonTable\TableBroadcast\Tablebroadcast.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Resource\JsonTable\TableGift\Tablegift.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Resource\JsonTable\TableLimit\Tablelimit.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Resource\ResourceManager.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Role\Role.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Role\RoleAttr.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Role\RoleManager.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TeamGameServer.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\x64\Debug\Poker.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\BaseDefine.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\CenterClient.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\ConfigFile.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\DataBuffer.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\DBClient.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\DBLogClient.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\GameApplication.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\GameServer.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\GameService.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\HttpLinkApplication.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\main.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\PlayerClient.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Card\Card.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\DBCache\DBHallEntity\DBHallEntity.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\DBCache\DBHallEntity\DBHallEntityManager.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\DBCache\DBHallHandler.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\DBCache\DBManager.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameFormula\GameFormula.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\GameHall.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasGame\TexasGame.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasGame\TexasGameEntity.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasGame\TexasGameManager.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasGame\TexasGameMsgDealerReq.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasGame\TexasGameMsgDealerRes.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasGame\TexasGameMsgDealerSync.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasGame\TexasGameMsgReq.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasGame\TexasGameMsgRes.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasGame\TexasGameMsgSync.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasGame\TexasGame_DBScene.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasGame\TexasGame_DLScene.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasRole\TexasRole.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasRole\TexasRoleEntity.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasRole\TexasRoleMsgRes.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasRole\TexasRoleMsgSync.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasRoom\TexasRoom.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasRoom\TexasRoomManager.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Girl\Girl.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Girl\GirlManager.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Httplink\HttpLinkEvent.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Httplink\HttpLinkFB.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Httplink\HttpLinkManager.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Httplink\HttpLinkYY.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\CSMessage\CSMessage.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\CSMessage\CSMessage_Broadcast.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\CSMessage\CSMessage_GameRole.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\CSMessage\CSMessage_GameScene.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\CSMessage\CSMessage_HallRoom.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\CSMessage\CSMessage_UserLogin.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\DBMessage\DBMessage.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\DBMessage\DBMessage_PrizePool.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\DBMessage\DBMessage_Role.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\DBMessage\DBMessage_TexasBoard.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\DBMessage\DBMessage_TexasHistoryBoard.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\DLMessage\DLMessage.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\DLMessage\DLMessage_TexasGameBet.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\DLMessage\DLMessage_UserLogin.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\DLMessage\DLMessage_UserLogout.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\GameMessage.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\GCMessage\GCMessage.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\GSMessage\GSMessage.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\GSMessage\GSMessage_GameScene.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\GSMessage\GSMessage_GirlLogin.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\GSMessage\GSMessage_HallRoom.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\GTMessage\GTMessage.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\GTMessage\GTMessage_Ping.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\HGSMessage\HGSMessage.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\PSMessage\PSMessage.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\PSMessage\PSMessage_GameScene.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\WSSMessage\WSSMessage.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\PrizePool\PrizePool.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Resource\JsonTable\TableBetTea\TableBetTea.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Resource\JsonTable\TableBroadcast\TableBroadcast.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Resource\JsonTable\TableGift\TableGift.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Resource\JsonTable\TableLimit\TableLimit.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Resource\ResourceManager.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Role\Role.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Role\RoleAttr.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Role\RoleManager.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

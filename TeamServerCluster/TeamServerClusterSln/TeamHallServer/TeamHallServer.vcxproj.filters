@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{64228283-6149-48a7-8f6b-9bbc128f276b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic">
+      <UniqueIdentifier>{3d9d0f19-d956-4d19-85b7-eea4b3e28c78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\DBCache">
+      <UniqueIdentifier>{3ef2833f-864c-46cb-86df-10d65c1ba3c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Message">
+      <UniqueIdentifier>{746dffe6-91a5-4ad0-b3e6-2daae4614b1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\DBCache\DBHallEntity">
+      <UniqueIdentifier>{08a12315-ac02-43cd-a1ed-e4425f2c0c62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Common">
+      <UniqueIdentifier>{90798a1f-a4b9-40a0-bf17-018fe6dbb76b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocols">
+      <UniqueIdentifier>{71d101d2-a577-48e3-8c4d-41cab677dac1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocols\HGSProtocol">
+      <UniqueIdentifier>{c9c8fbc2-f506-4638-8d36-1d5cea341db6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocols\WHProtocol">
+      <UniqueIdentifier>{6557d558-7407-487f-9c5f-1d16b1eef1e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocols\WSSProtocol">
+      <UniqueIdentifier>{f8099fc8-c2a7-4063-bca9-51773477f5cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Message\HGSMessage">
+      <UniqueIdentifier>{41c4f779-42be-4708-ac27-bece403d0e22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Message\WHMessage">
+      <UniqueIdentifier>{a46d84ed-f346-4c3c-b719-10c41fba3fea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Message\WSSMessage">
+      <UniqueIdentifier>{fe6357f4-2170-4e69-a0ff-ac0396fd6f75}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamHS\HallServer\FrameWork\BaseDefine.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamHS\HallServer\FrameWork\ConfigFile.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamHS\HallServer\FrameWork\DataBuffer.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamHS\HallServer\FrameWork\PlayerClient.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamHS\HallServer\Logic\DBCache\DBManager.h">
+      <Filter>Logic\DBCache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamHS\HallServer\FrameWork\HallApplication.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamHS\HallServer\FrameWork\HallServer.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamHS\HallServer\FrameWork\HallService.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamHS\HallServer\FrameWork\GameClient.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamHS\HallServer\Logic\DBCache\DBHallEntity\DBHallEntity.h">
+      <Filter>Logic\DBCache\DBHallEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamHS\HallServer\Logic\DBCache\DBHallEntity\DBHallEntityManager.h">
+      <Filter>Logic\DBCache\DBHallEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamHS\HallServer\Logic\Common\GameEnum.h">
+      <Filter>Logic\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\WSSProtocol\WSSProtocol.h">
+      <Filter>Protocols\WSSProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\WSSProtocol\WSSProtocol_Online.h">
+      <Filter>Protocols\WSSProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\WHProtocol\WHProtocol.h">
+      <Filter>Protocols\WHProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\WHProtocol\WHProtocol_Ping.h">
+      <Filter>Protocols\WHProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\HGSProtocol\HGSProtocol.h">
+      <Filter>Protocols\HGSProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\HGSProtocol\HGSProtocol_Ping.h">
+      <Filter>Protocols\HGSProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamHS\HallServer\Logic\Message\HGSMessage\HGSMessage.h">
+      <Filter>Logic\Message\HGSMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamHS\HallServer\Logic\Message\WSSMessage\WSSMessage.h">
+      <Filter>Logic\Message\WSSMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamHS\HallServer\Logic\Message\WHMessage\WHMessage.h">
+      <Filter>Logic\Message\WHMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamHS\HallServer\Logic\Message\HallMessage.h">
+      <Filter>Logic\Message</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TeamHallServer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\Bin\Platform\Windows\X64\Debug\HallServer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\TeamSource\TeamHS\HallServer\FrameWork\BaseDefine.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamHS\HallServer\FrameWork\ConfigFile.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamHS\HallServer\FrameWork\DataBuffer.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamHS\HallServer\FrameWork\main.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamHS\HallServer\FrameWork\PlayerClient.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamHS\HallServer\Logic\DBCache\DBManager.cpp">
+      <Filter>Logic\DBCache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamHS\HallServer\FrameWork\HallApplication.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamHS\HallServer\FrameWork\HallServer.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamHS\HallServer\FrameWork\HallService.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamHS\HallServer\FrameWork\GameClient.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamHS\HallServer\Logic\DBCache\DBHallEntity\DBHallEntity.cpp">
+      <Filter>Logic\DBCache\DBHallEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamHS\HallServer\Logic\DBCache\DBHallEntity\DBHallEntityManager.cpp">
+      <Filter>Logic\DBCache\DBHallEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamHS\HallServer\Logic\DBCache\DBHallHandler.cpp">
+      <Filter>Logic\DBCache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamHS\HallServer\Logic\Message\HGSMessage\HGSMessage.cpp">
+      <Filter>Logic\Message\HGSMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamHS\HallServer\Logic\Message\WSSMessage\WSSMessage.cpp">
+      <Filter>Logic\Message\WSSMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamHS\HallServer\Logic\Message\WHMessage\WHMessage.cpp">
+      <Filter>Logic\Message\WHMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamHS\HallServer\Logic\Message\HallMessage.cpp">
+      <Filter>Logic\Message</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

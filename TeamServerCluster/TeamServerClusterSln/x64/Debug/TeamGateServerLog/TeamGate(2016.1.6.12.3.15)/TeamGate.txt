@@ -1,0 +1,4 @@
+2016-01-06 12:03:15 98868
+TeamGate Server  Initial !
+2016-01-06 12:03:15 98868
+[TeamGate Server Connect DB Success !]

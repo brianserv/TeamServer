@@ -1,0 +1,142 @@
+﻿生成启动时间为 2016/1/6 13:35:37。
+     1>项目“E:\TeamServerCluster\TeamServerClusterSln\TeamWebSocketServer\TeamWebSocketServer.vcxproj”在节点 3 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I..\..\TeamSDK\BaseInterface /I..\..\Protocols /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /FR"x64\Debug\\" /Gd /TP /errorReport:prompt ..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\BackendClient.cpp ..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\BaseDefine.cpp ..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\ConfigFile.cpp ..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\DataBuffer.cpp ..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\HallClient.cpp ..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\main.cpp ..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\PlayerClient.cpp ..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\WebSocketApplication.cpp ..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\WebSocketServer.cpp ..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\WebSocketService.cpp ..\..\TeamSource\TeamWS\WebSocketServer\Logic\Message\WBMessage\WBMessage.cpp ..\..\TeamSource\TeamWS\WebSocketServer\Logic\Message\WebMessage.cpp ..\..\TeamSource\TeamWS\WebSocketServer\Logic\Message\WHMessage\WHMessage.cpp ..\..\TeamSource\TeamWS\WebSocketServer\Logic\Message\WSSMessage\WSSMessage.cpp ..\..\TeamSource\TeamWS\WebSocketServer\Logic\WebFrameFilter\WebFrameFilter.cpp ..\..\TeamSource\TeamWS\WebSocketServer\Logic\WebSocket\WebSocketFrameHandler.cpp ..\..\TeamSource\TeamWS\WebSocketServer\Logic\WebSocket\WebSocketWorker.cpp
+         WebSocketWorker.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamws\websocketserver\logic\websocket\websocketworker.cpp(32): warning C4267: “参数”: 从“size_t”转换到“long”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamws\websocketserver\logic\websocket\websocketworker.cpp(62): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+     1>e:\teamservercluster\teamsource\teamws\websocketserver\logic\websocket\websocketworker.cpp(78): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamws\websocketserver\logic\websocket\websocketworker.cpp(83): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+         WebSocketFrameHandler.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         WebFrameFilter.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         WSSMessage.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         WHMessage.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         WebMessage.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         WBMessage.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         WebSocketService.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         WebSocketServer.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamws\websocketserver\framework\websocketserver.cpp(80): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamws\websocketserver\framework\websocketserver.cpp(96): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamws\websocketserver\framework\websocketserver.cpp(124): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamws\websocketserver\framework\websocketserver.cpp(165): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         WebSocketApplication.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         PlayerClient.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         main.cpp
+     1>c:\program files (x86)\windows kits\8.1\include\um\imagehlp.h(1873): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
+     1>c:\program files (x86)\windows kits\8.1\include\um\imagehlp.h(3519): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
+         HallClient.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         DataBuffer.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         ConfigFile.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         BaseDefine.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         BackendClient.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"x64\Debug\TeamWebSocketServer.res" TeamWebSocketServer.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(E:\TeamServerCluster\TeamServerClusterSln\x64\Debug\TeamWebSocketServer.exe) does not match the Linker's OutputFile property value (E:\TeamServerCluster\Bin\Platform\Windows\X64\Debug\TeamWebSocketServer.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\Bin\Platform\Windows\X64\Debug\TeamWebSocketServer.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\TeamSDK\Lib\native_lib\Platform\Windows\X64\Debug TeamUtil.lib TeamWebsocket.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\TeamServerCluster\TeamServerClusterSln\x64\Debug\TeamWebSocketServer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\TeamServerCluster\TeamServerClusterSln\x64\Debug\TeamWebSocketServer.lib" /MACHINE:X64 x64\Debug\TeamWebSocketServer.res
+         x64\Debug\BackendClient.obj
+         x64\Debug\BaseDefine.obj
+         x64\Debug\ConfigFile.obj
+         x64\Debug\DataBuffer.obj
+         x64\Debug\HallClient.obj
+         x64\Debug\main.obj
+         x64\Debug\PlayerClient.obj
+         x64\Debug\WebSocketApplication.obj
+         x64\Debug\WebSocketServer.obj
+         x64\Debug\WebSocketService.obj
+         x64\Debug\WBMessage.obj
+         x64\Debug\WebMessage.obj
+         x64\Debug\WHMessage.obj
+         x64\Debug\WSSMessage.obj
+         x64\Debug\WebFrameFilter.obj
+         x64\Debug\WebSocketFrameHandler.obj
+         x64\Debug\WebSocketWorker.obj
+         TeamWebSocketServer.vcxproj -> E:\TeamServerCluster\TeamServerClusterSln\x64\Debug\TeamWebSocketServer.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\bscmake.exe /nologo /o"E:\TeamServerCluster\TeamServerClusterSln\x64\Debug\TeamWebSocketServer.bsc" /n x64\Debug\BackendClient.sbr x64\Debug\BaseDefine.sbr x64\Debug\ConfigFile.sbr x64\Debug\DataBuffer.sbr x64\Debug\HallClient.sbr x64\Debug\main.sbr x64\Debug\PlayerClient.sbr x64\Debug\WebSocketApplication.sbr x64\Debug\WebSocketServer.sbr x64\Debug\WebSocketService.sbr x64\Debug\WBMessage.sbr x64\Debug\WebMessage.sbr x64\Debug\WHMessage.sbr x64\Debug\WSSMessage.sbr x64\Debug\WebFrameFilter.sbr x64\Debug\WebSocketFrameHandler.sbr x64\Debug\WebSocketWorker.sbr
+     1>已完成生成项目“E:\TeamServerCluster\TeamServerClusterSln\TeamWebSocketServer\TeamWebSocketServer.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:26.09

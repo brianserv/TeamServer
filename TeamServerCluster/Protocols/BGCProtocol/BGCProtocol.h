@@ -1,0 +1,17 @@
+﻿#ifndef __BGC_PROTOCOL_H__
+#define __BGC_PROTOCOL_H__
+
+//BKS-GC
+//Protocol ID:[2400-2500](Base :2400)
+enum EBGC_PROTOCOL
+{
+	EBGC_BEGIN = 2400,
+	////////////////////////////////////////////////////////////////////////////////////////////////
+	EBGC_PING_B2GC_HEARTBEAT_REQ = 2401,
+	EBGC_PING_GC2B_HEARTBEAT_RES = 2402,
+
+	////////////////////////////////////////////////////////////////////////////////////////////////
+	EBGC_END = 2400
+};
+
+#endif//__BGC_PROTOCOL_H__

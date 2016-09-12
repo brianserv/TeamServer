@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{e6d5549b-5e83-4a8f-87c0-00222bf1eb4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic">
+      <UniqueIdentifier>{9db7d937-a079-4f1e-abf2-d8baa66bc31e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\DBCache">
+      <UniqueIdentifier>{6715d894-4605-461f-9f15-d7975e57051b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Girl">
+      <UniqueIdentifier>{22b2bf37-663d-4ab7-91a6-2c694111154e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Role">
+      <UniqueIdentifier>{10c00062-7e93-4b45-90a3-89ca694ab758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Message">
+      <UniqueIdentifier>{f59aa2eb-3068-47dd-96c1-5fa1f84fdea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Message\CSMessage">
+      <UniqueIdentifier>{af40c3dc-4031-4357-9fcd-b251703a6383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Message\GSMessage">
+      <UniqueIdentifier>{d9adc189-4339-4c81-b4b4-072f144d8a8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Message\PSMessage">
+      <UniqueIdentifier>{29c21d9d-0dd7-4cf8-86f1-755afbfa4843}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocols">
+      <UniqueIdentifier>{00fa0ffc-62f3-44a0-881b-e637023db5e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocols\CSProtocol">
+      <UniqueIdentifier>{a82a24c1-b4db-40ad-9356-b6bb3d45b742}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocols\GSProtocol">
+      <UniqueIdentifier>{6ebb0ed0-95ab-470a-a5e7-0a3395386306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocols\PSProtocol">
+      <UniqueIdentifier>{5545b95e-b118-408a-8574-57ae549a9e22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocols\SDBProtocol">
+      <UniqueIdentifier>{68786d4b-488b-4bf7-af2b-6232a886d2ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocols\SDLProtocol">
+      <UniqueIdentifier>{95fe5f52-76bf-43ad-83fb-924d3b312fbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocols\SGCProtocol">
+      <UniqueIdentifier>{8fed11f5-f203-466e-83a1-83584a18b848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocols\SGTProtocol">
+      <UniqueIdentifier>{033cd96e-1738-47a5-92f3-b87bd3d86c66}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\FrameWork\BaseDefine.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\FrameWork\ConfigFile.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\FrameWork\DataBuffer.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\FrameWork\GameClient.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\FrameWork\GateApplication.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\FrameWork\GateServer.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\FrameWork\GateService.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\FrameWork\main.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\FrameWork\PlayerClient.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\Logic\DBCache\DBGirlHandler.cpp">
+      <Filter>Logic\DBCache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\Logic\DBCache\DBManager.cpp">
+      <Filter>Logic\DBCache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\Logic\Girl\Girl.cpp">
+      <Filter>Logic\Girl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\Logic\Girl\GirlManager.cpp">
+      <Filter>Logic\Girl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\Logic\Role\Role.cpp">
+      <Filter>Logic\Role</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\Logic\Role\RoleManager.cpp">
+      <Filter>Logic\Role</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\Logic\Message\GateMessage.cpp">
+      <Filter>Logic\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\Logic\Message\CSMessage\CSMessage.cpp">
+      <Filter>Logic\Message\CSMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\Logic\Message\CSMessage\CSMessage_HeartBeat.cpp">
+      <Filter>Logic\Message\CSMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\Logic\Message\CSMessage\CSMessage_UserLogin.cpp">
+      <Filter>Logic\Message\CSMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\Logic\Message\GSMessage\GSMessage.cpp">
+      <Filter>Logic\Message\GSMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\Logic\Message\GSMessage\GSMessage_GirlLogin.cpp">
+      <Filter>Logic\Message\GSMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\Logic\Message\GSMessage\GSMessage_HeartBeat.cpp">
+      <Filter>Logic\Message\GSMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\Logic\Message\PSMessage\PSMessage.cpp">
+      <Filter>Logic\Message\PSMessage</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\TeamSource\TeamGT\GateServer\FrameWork\BaseDefine.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGT\GateServer\FrameWork\ConfigFile.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGT\GateServer\FrameWork\DataBuffer.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGT\GateServer\FrameWork\GameClient.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGT\GateServer\FrameWork\GateApplication.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGT\GateServer\FrameWork\GateServer.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGT\GateServer\FrameWork\GateService.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGT\GateServer\FrameWork\PlayerClient.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGT\GateServer\Logic\DBCache\DBManager.h">
+      <Filter>Logic\DBCache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGT\GateServer\Logic\Girl\Girl.h">
+      <Filter>Logic\Girl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGT\GateServer\Logic\Girl\GirlManager.h">
+      <Filter>Logic\Girl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGT\GateServer\Logic\Role\Role.h">
+      <Filter>Logic\Role</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGT\GateServer\Logic\Role\RoleManager.h">
+      <Filter>Logic\Role</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGT\GateServer\Logic\Message\GateMessage.h">
+      <Filter>Logic\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGT\GateServer\Logic\Message\CSMessage\CSMessage.h">
+      <Filter>Logic\Message\CSMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGT\GateServer\Logic\Message\GSMessage\GSMessage.h">
+      <Filter>Logic\Message\GSMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGT\GateServer\Logic\Message\PSMessage\PSMessage.h">
+      <Filter>Logic\Message\PSMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\BasePacket.h">
+      <Filter>Protocols</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\CommonProtocol.h">
+      <Filter>Protocols</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\CSProtocol\CSProtocol.h">
+      <Filter>Protocols\CSProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\CSProtocol\CSProtocol_BroadCast.h">
+      <Filter>Protocols\CSProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\CSProtocol\CSProtocol_Chat.h">
+      <Filter>Protocols\CSProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\CSProtocol\CSProtocol_Error.h">
+      <Filter>Protocols\CSProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\CSProtocol\CSProtocol_Gift.h">
+      <Filter>Protocols\CSProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\CSProtocol\CSProtocol_HallRoom.h">
+      <Filter>Protocols\CSProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\CSProtocol\CSProtocol_Login.h">
+      <Filter>Protocols\CSProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\CSProtocol\CSProtocol_Ping.h">
+      <Filter>Protocols\CSProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\CSProtocol\CSProtocol_Role.h">
+      <Filter>Protocols\CSProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\CSProtocol\CSProtocol_TexasGame.h">
+      <Filter>Protocols\CSProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\GSProtocol\GSProtocol.h">
+      <Filter>Protocols\GSProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\GSProtocol\GSProtocol_Error.h">
+      <Filter>Protocols\GSProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\GSProtocol\GSProtocol_HallRoom.h">
+      <Filter>Protocols\GSProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\GSProtocol\GSProtocol_Login.h">
+      <Filter>Protocols\GSProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\GSProtocol\GSProtocol_Ping.h">
+      <Filter>Protocols\GSProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\GSProtocol\GSProtocol_TexasGame.h">
+      <Filter>Protocols\GSProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\PSProtocol\PSProtocol.h">
+      <Filter>Protocols\PSProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\SDBProtocol\SDBProtocol.h">
+      <Filter>Protocols\SDBProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\SDBProtocol\SDBProtocol_Girl.h">
+      <Filter>Protocols\SDBProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\SDBProtocol\SDBProtocol_Ping.h">
+      <Filter>Protocols\SDBProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\SDBProtocol\SDBProtocol_PrizePool.h">
+      <Filter>Protocols\SDBProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\SDBProtocol\SDBProtocol_Role.h">
+      <Filter>Protocols\SDBProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\SDBProtocol\SDBProtocol_TexasBoard.h">
+      <Filter>Protocols\SDBProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\SDBProtocol\SDBProtocol_TexasHistoryBoard10.h">
+      <Filter>Protocols\SDBProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\SDLProtocol\SDLProtocol.h">
+      <Filter>Protocols\SDLProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\SDLProtocol\SDLProtocol_Bet.h">
+      <Filter>Protocols\SDLProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\SDLProtocol\SDLProtocol_Gm.h">
+      <Filter>Protocols\SDLProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\SDLProtocol\SDLProtocol_Login.h">
+      <Filter>Protocols\SDLProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\SDLProtocol\SDLProtocol_Logout.h">
+      <Filter>Protocols\SDLProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\SDLProtocol\SDLProtocol_Online.h">
+      <Filter>Protocols\SDLProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\SDLProtocol\SDLProtocol_Ping.h">
+      <Filter>Protocols\SDLProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\SDLProtocol\SDLProtocol_PVGGift.h">
+      <Filter>Protocols\SDLProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\SDLProtocol\SDLProtocol_PVPGift.h">
+      <Filter>Protocols\SDLProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\SDLProtocol\SDLProtocol_Room.h">
+      <Filter>Protocols\SDLProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\SDLProtocol\SDLProtocol_Trace.h">
+      <Filter>Protocols\SDLProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\SGCProtocol\SGCProtocol.h">
+      <Filter>Protocols\SGCProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\SGCProtocol\SGCProtocol_Ping.h">
+      <Filter>Protocols\SGCProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\SGTProtocol\SGTProtocol.h">
+      <Filter>Protocols\SGTProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\SGTProtocol\SGTProtocol_Ping.h">
+      <Filter>Protocols\SGTProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\PSProtocol\PSProtocol_TexasVipRoom.h">
+      <Filter>Protocols\PSProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\SGCProtocol\SGCProtocol_Game.h">
+      <Filter>Protocols\SGCProtocol</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TeamGateServer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\x64\Debug\Gateway.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

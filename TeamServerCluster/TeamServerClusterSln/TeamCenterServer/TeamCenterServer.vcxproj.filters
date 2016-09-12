@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{66162ab1-f59a-4c9c-977b-2457844f5592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic">
+      <UniqueIdentifier>{5a18aee7-ce85-4632-bd1d-d6bd7373bf11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Message">
+      <UniqueIdentifier>{6cf53e95-1b48-463a-a4f7-aac9b277ecfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\ServerManager">
+      <UniqueIdentifier>{7ff0dd4e-34fa-457d-a405-0fb403617249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\GameHall">
+      <UniqueIdentifier>{52efb571-963c-4c14-a209-c90851bc159e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\GameHall\Texas">
+      <UniqueIdentifier>{0eec1410-a755-4756-8008-fa2b2999630b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\GameHall\Texas\TexasGameRoom">
+      <UniqueIdentifier>{c3fda4ca-c688-4749-8347-ab944ab0ed01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Message\BGCMessage">
+      <UniqueIdentifier>{f6d0bc8d-307c-440b-967a-478d72d5fb81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Message\WSSMessage">
+      <UniqueIdentifier>{bca78f0a-1942-4431-8900-ba34ae0439f8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\TeamSource\TeamGC\CenterServer\FrameWork\BaseDefine.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGC\CenterServer\FrameWork\CenterApplication.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGC\CenterServer\FrameWork\CenterServer.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGC\CenterServer\FrameWork\CenterService.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGC\CenterServer\FrameWork\ConfigFile.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGC\CenterServer\FrameWork\DataBuffer.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGC\CenterServer\FrameWork\main.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGC\CenterServer\FrameWork\PlayerClient.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGC\CenterServer\Logic\Message\CenterMessage.cpp">
+      <Filter>Logic\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGC\CenterServer\Logic\ServerManager\GameServer.cpp">
+      <Filter>Logic\ServerManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGC\CenterServer\Logic\ServerManager\GameServerManager.cpp">
+      <Filter>Logic\ServerManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGC\CenterServer\Logic\Message\BGCMessage\BGCMessage.cpp">
+      <Filter>Logic\Message\BGCMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGC\CenterServer\Logic\Message\WSSMessage\WSSMessage.cpp">
+      <Filter>Logic\Message\WSSMessage</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\TeamSource\TeamGC\CenterServer\FrameWork\BaseDefine.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGC\CenterServer\FrameWork\CenterApplication.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGC\CenterServer\FrameWork\CenterServer.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGC\CenterServer\FrameWork\CenterService.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGC\CenterServer\FrameWork\ConfigFile.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGC\CenterServer\FrameWork\DataBuffer.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGC\CenterServer\FrameWork\PlayerClient.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGC\CenterServer\Logic\Message\CenterMessage.h">
+      <Filter>Logic\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGC\CenterServer\Logic\ServerManager\GameServer.h">
+      <Filter>Logic\ServerManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGC\CenterServer\Logic\ServerManager\GameServerManager.h">
+      <Filter>Logic\ServerManager</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGC\CenterServer\Logic\Message\BGCMessage\BGCMessage.h">
+      <Filter>Logic\Message\BGCMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGC\CenterServer\Logic\Message\WSSMessage\WSSMessage.h">
+      <Filter>Logic\Message\WSSMessage</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TeamCenterServer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\x64\Debug\CenterServer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

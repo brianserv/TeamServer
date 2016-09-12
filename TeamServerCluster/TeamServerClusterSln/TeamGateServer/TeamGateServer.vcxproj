@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{80A0D5FC-47C4-4EDE-B63B-3DC297CD4B81}</ProjectGuid>
+    <RootNamespace>TeamGateServer</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.23107.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\TeamSDK\BaseInterface;..\..\Protocols;..\..\TeamSDK\Lib\third_lib\mysql\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>TeamUtil.lib;TeamNet.lib;libmysql.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\..\Bin\Platform\Windows\X86\Debug\$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>..\..\TeamSDK\Lib\native_lib\Platform\Windows\X86\Debug;..\..\TeamSDK\Lib\third_lib\mysql\windows\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\TeamSDK\BaseInterface;..\..\Protocols;..\..\TeamSDK\Lib\third_lib\mysql\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>TeamUtil.lib;TeamNet.lib;libmysql.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\TeamSDK\Lib\native_lib\Platform\Windows\X64\Debug;..\..\TeamSDK\Lib\third_lib\mysql\windows\lib\X64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\..\Bin\Platform\Windows\X64\Debug\$(ProjectName).exe</OutputFile>
+    </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\FrameWork\BaseDefine.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\FrameWork\ConfigFile.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\FrameWork\DataBuffer.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\FrameWork\GameClient.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\FrameWork\GateApplication.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\FrameWork\GateServer.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\FrameWork\GateService.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\FrameWork\main.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\FrameWork\PlayerClient.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\Logic\DBCache\DBGirlHandler.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\Logic\DBCache\DBManager.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\Logic\Girl\Girl.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\Logic\Girl\GirlManager.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\Logic\Message\CSMessage\CSMessage.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\Logic\Message\CSMessage\CSMessage_HeartBeat.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\Logic\Message\CSMessage\CSMessage_UserLogin.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\Logic\Message\GateMessage.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\Logic\Message\GSMessage\GSMessage.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\Logic\Message\GSMessage\GSMessage_GirlLogin.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\Logic\Message\GSMessage\GSMessage_HeartBeat.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\Logic\Message\PSMessage\PSMessage.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\Logic\Role\Role.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamGT\GateServer\Logic\Role\RoleManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Protocols\BasePacket.h" />
+    <ClInclude Include="..\..\Protocols\CommonProtocol.h" />
+    <ClInclude Include="..\..\Protocols\CSProtocol\CSProtocol.h" />
+    <ClInclude Include="..\..\Protocols\CSProtocol\CSProtocol_BroadCast.h" />
+    <ClInclude Include="..\..\Protocols\CSProtocol\CSProtocol_Chat.h" />
+    <ClInclude Include="..\..\Protocols\CSProtocol\CSProtocol_Error.h" />
+    <ClInclude Include="..\..\Protocols\CSProtocol\CSProtocol_Gift.h" />
+    <ClInclude Include="..\..\Protocols\CSProtocol\CSProtocol_HallRoom.h" />
+    <ClInclude Include="..\..\Protocols\CSProtocol\CSProtocol_Login.h" />
+    <ClInclude Include="..\..\Protocols\CSProtocol\CSProtocol_Ping.h" />
+    <ClInclude Include="..\..\Protocols\CSProtocol\CSProtocol_Role.h" />
+    <ClInclude Include="..\..\Protocols\CSProtocol\CSProtocol_TexasGame.h" />
+    <ClInclude Include="..\..\Protocols\GSProtocol\GSProtocol.h" />
+    <ClInclude Include="..\..\Protocols\GSProtocol\GSProtocol_Error.h" />
+    <ClInclude Include="..\..\Protocols\GSProtocol\GSProtocol_HallRoom.h" />
+    <ClInclude Include="..\..\Protocols\GSProtocol\GSProtocol_Login.h" />
+    <ClInclude Include="..\..\Protocols\GSProtocol\GSProtocol_Ping.h" />
+    <ClInclude Include="..\..\Protocols\GSProtocol\GSProtocol_TexasGame.h" />
+    <ClInclude Include="..\..\Protocols\PSProtocol\PSProtocol.h" />
+    <ClInclude Include="..\..\Protocols\PSProtocol\PSProtocol_TexasVipRoom.h" />
+    <ClInclude Include="..\..\Protocols\SDBProtocol\SDBProtocol.h" />
+    <ClInclude Include="..\..\Protocols\SDBProtocol\SDBProtocol_Girl.h" />
+    <ClInclude Include="..\..\Protocols\SDBProtocol\SDBProtocol_Ping.h" />
+    <ClInclude Include="..\..\Protocols\SDBProtocol\SDBProtocol_PrizePool.h" />
+    <ClInclude Include="..\..\Protocols\SDBProtocol\SDBProtocol_Role.h" />
+    <ClInclude Include="..\..\Protocols\SDBProtocol\SDBProtocol_TexasBoard.h" />
+    <ClInclude Include="..\..\Protocols\SDBProtocol\SDBProtocol_TexasHistoryBoard10.h" />
+    <ClInclude Include="..\..\Protocols\SDLProtocol\SDLProtocol.h" />
+    <ClInclude Include="..\..\Protocols\SDLProtocol\SDLProtocol_Bet.h" />
+    <ClInclude Include="..\..\Protocols\SDLProtocol\SDLProtocol_Gm.h" />
+    <ClInclude Include="..\..\Protocols\SDLProtocol\SDLProtocol_Login.h" />
+    <ClInclude Include="..\..\Protocols\SDLProtocol\SDLProtocol_Logout.h" />
+    <ClInclude Include="..\..\Protocols\SDLProtocol\SDLProtocol_Online.h" />
+    <ClInclude Include="..\..\Protocols\SDLProtocol\SDLProtocol_Ping.h" />
+    <ClInclude Include="..\..\Protocols\SDLProtocol\SDLProtocol_PVGGift.h" />
+    <ClInclude Include="..\..\Protocols\SDLProtocol\SDLProtocol_PVPGift.h" />
+    <ClInclude Include="..\..\Protocols\SDLProtocol\SDLProtocol_Room.h" />
+    <ClInclude Include="..\..\Protocols\SDLProtocol\SDLProtocol_Trace.h" />
+    <ClInclude Include="..\..\Protocols\SGCProtocol\SGCProtocol.h" />
+    <ClInclude Include="..\..\Protocols\SGCProtocol\SGCProtocol_Game.h" />
+    <ClInclude Include="..\..\Protocols\SGCProtocol\SGCProtocol_Ping.h" />
+    <ClInclude Include="..\..\Protocols\SGTProtocol\SGTProtocol.h" />
+    <ClInclude Include="..\..\Protocols\SGTProtocol\SGTProtocol_Ping.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGT\GateServer\FrameWork\BaseDefine.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGT\GateServer\FrameWork\ConfigFile.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGT\GateServer\FrameWork\DataBuffer.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGT\GateServer\FrameWork\GameClient.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGT\GateServer\FrameWork\GateApplication.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGT\GateServer\FrameWork\GateServer.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGT\GateServer\FrameWork\GateService.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGT\GateServer\FrameWork\PlayerClient.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGT\GateServer\Logic\DBCache\DBManager.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGT\GateServer\Logic\Girl\Girl.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGT\GateServer\Logic\Girl\GirlManager.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGT\GateServer\Logic\Message\CSMessage\CSMessage.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGT\GateServer\Logic\Message\GateMessage.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGT\GateServer\Logic\Message\GSMessage\GSMessage.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGT\GateServer\Logic\Message\PSMessage\PSMessage.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGT\GateServer\Logic\Role\Role.h" />
+    <ClInclude Include="..\..\TeamSource\TeamGT\GateServer\Logic\Role\RoleManager.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TeamGateServer.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\x64\Debug\Gateway.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

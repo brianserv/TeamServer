@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="12.6.1" version="12.6.1" Modules="simple" RootPath="." Language="en" Id="{0D7668DE-1D2E-4003-BEA6-958F6B66BF2C}">
+  <COMPONENT cid="caphyon.advinst.msicomp.ProjectOptionsComponent">
+    <ROW Name="HiddenItems" Value="MsiThemeComponent;BackgroundImagesComponent;UpdaterComponent;SerValComponent;DigCertStoreComponent;MsiInstExSeqComponent;DictionaryComponent;MsiAppSearchComponent;MsiAssemblyComponent;MsiClassComponent;MsiOdbcDataSrcComponent;MsiServInstComponent;MsiOrgComponent;MsiExtComponent;CPLAppletComponent;ActSyncAppComponent;PreReqComponent;WebApplicationsComponent;MsiJavaComponent;MsiDriverPackagesComponent;UserAccountsComponent;ScheduledTasksComponent;SqlConnectionComponent;AutorunComponent;FirewallExceptionComponent;GameUxComponent;MsiDirectEditorComponent;SharePointSlnComponent;SilverlightSlnComponent;MultipleInstancesComponent;SccmComponent;ActSyncAppComponent"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
+    <ROW Property="Manufacturer" Value="Pink"/>
+    <ROW Property="ProductCode" Value="1033:{B91642C5-5385-4DC4-B101-EB1ACB415093} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="TeamServerCluster"/>
+    <ROW Property="ProductVersion" Value="1.0.0" Type="32"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{A9B29BAD-22AE-4059-B63E-43487608B7B9}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="x64_Debug:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="x64_Debug:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="x64_Debug:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="x64_Debug:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="x64_Debug:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="x64_Debug:Windows 2000" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="Bin_Dir" Directory_Parent="APPDIR" DefaultDir="Bin"/>
+    <ROW Directory="Debug_Dir" Directory_Parent="X64_Dir" DefaultDir="Debug"/>
+    <ROW Directory="Linux_Dir" Directory_Parent="Platform_Dir" DefaultDir="Linux"/>
+    <ROW Directory="Platform_Dir" Directory_Parent="Bin_Dir" DefaultDir="Platform"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+    <ROW Directory="TeamScript_Dir" Directory_Parent="APPDIR" DefaultDir="MYSQLS~1|MysqlScript"/>
+    <ROW Directory="Windows_Dir" Directory_Parent="Platform_Dir" DefaultDir="Windows"/>
+    <ROW Directory="X64_Dir" Directory_Parent="Windows_Dir" DefaultDir="X64"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="BACKEND_21PinkTeam.sql" ComponentId="{7E83D5EF-885D-43E7-93F3-84DBE1B7E4F3}" Directory_="TeamScript_Dir" Attributes="0" KeyPath="BACKEND_21PinkTeam.sql" Type="0"/>
+    <ROW Component="BackendServer.ini" ComponentId="{ED993326-F169-4816-B6A4-DBAAC4062035}" Directory_="Linux_Dir" Attributes="0" KeyPath="BackendServer.ini_1" Type="0"/>
+    <ROW Component="ConfigureEditCN.exe" ComponentId="{C7360B8C-27C1-4F6B-8F41-6E16ED09AA1D}" Directory_="Debug_Dir" Attributes="0" KeyPath="ConfigureEditCN.exe"/>
+    <ROW Component="ConfigureEditEN.exe" ComponentId="{484D1DF0-656A-4DE7-97FD-8CB7E4D9D638}" Directory_="Debug_Dir" Attributes="0" KeyPath="ConfigureEditEN.exe"/>
+    <ROW Component="ProductInformation" ComponentId="{90E28527-BC86-47ED-8D36-910FA322C9C0}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="RunEnviroment.zip" ComponentId="{E8F01A9E-F93D-4A89-9044-82CBC64A62EF}" Directory_="Debug_Dir" Attributes="0" KeyPath="RunEnviroment.zip" Type="0"/>
+    <ROW Component="TeamCenterServer.exe" ComponentId="{BAA3CE7D-CB50-40A0-8B31-9FFE4E12BEEE}" Directory_="Debug_Dir" Attributes="256" KeyPath="TeamCenterServer.exe"/>
+    <ROW Component="TeamDLServer.pdb" ComponentId="{870ADEE3-09F5-494B-A46F-3ABBEEB7A4C2}" Directory_="Debug_Dir" Attributes="0" KeyPath="TeamDLServer.exe"/>
+    <ROW Component="TeamFlashPolicyServer.exe" ComponentId="{766E20A1-079C-4181-B5A1-D45A45BE0123}" Directory_="Debug_Dir" Attributes="256" KeyPath="TeamFlashPolicyServer.exe"/>
+    <ROW Component="TeamGameServer.exe" ComponentId="{6203D9DB-7242-4045-B6C7-35CFDF6B3415}" Directory_="Debug_Dir" Attributes="256" KeyPath="TeamGameServer.exe"/>
+    <ROW Component="TeamGameServer.pdb" ComponentId="{D10A0A4A-DB0D-4323-8C35-E1FB679C9A10}" Directory_="Debug_Dir" Attributes="0" KeyPath="TeamDBServer.exe"/>
+    <ROW Component="TeamGameServer.pdb_1" ComponentId="{CAE3B826-B5AE-4B88-B2F3-534BEAE9AA54}" Directory_="Debug_Dir" Attributes="0" KeyPath="TeamGateServer.exe"/>
+    <ROW Component="TeamHallServer.exe" ComponentId="{BA591527-3699-439E-8D7B-93E408A3C45A}" Directory_="Debug_Dir" Attributes="256" KeyPath="TeamHallServer.exe"/>
+    <ROW Component="TeamWebBackendServer.exe" ComponentId="{0A498245-5225-451A-BE7C-664BF5B44FD0}" Directory_="Debug_Dir" Attributes="256" KeyPath="TeamWebBackendServer.exe"/>
+    <ROW Component="TeamWebSocketServer.exe" ComponentId="{0643F975-8957-48C8-909C-4E5FA717C7DD}" Directory_="Debug_Dir" Attributes="256" KeyPath="TeamWebSocketServer.exe"/>
+    <ROW Component="libcurl.dll" ComponentId="{9629847B-CECE-445B-B077-84A53F303B11}" Directory_="Debug_Dir" Attributes="256" KeyPath="libcurl.dll"/>
+    <ROW Component="libeay32.dll" ComponentId="{5FB465A7-C004-4D50-BA04-BE30DB1C5AD7}" Directory_="Debug_Dir" Attributes="256" KeyPath="libeay32.dll"/>
+    <ROW Component="libmysql.dll" ComponentId="{85259EED-AF42-4D95-9CB6-BDD3ED2213E2}" Directory_="Debug_Dir" Attributes="256" KeyPath="libmysql.dll"/>
+    <ROW Component="libssh2.dll" ComponentId="{A8BE2E4B-3C08-45C7-95AF-7653527B8C01}" Directory_="Debug_Dir" Attributes="256" KeyPath="libssh2.dll"/>
+    <ROW Component="msvcp140d.dll" ComponentId="{4651F368-30D1-401C-9D2A-1A11A3A51A93}" Directory_="Debug_Dir" Attributes="256" KeyPath="msvcp140d.dll"/>
+    <ROW Component="msvcr110d.dll" ComponentId="{32072F36-0CAD-4924-945E-6CEB755D7E50}" Directory_="Debug_Dir" Attributes="256" KeyPath="msvcr110d.dll"/>
+    <ROW Component="ssleay32.dll" ComponentId="{C3D50186-E236-4D22-9EC9-4BDA2D8C5B75}" Directory_="Debug_Dir" Attributes="256" KeyPath="ssleay32.dll"/>
+    <ROW Component="ucrtbased.dll" ComponentId="{6178297C-0E6F-4429-872A-2503FC6C369B}" Directory_="Debug_Dir" Attributes="256" KeyPath="ucrtbased.dll"/>
+    <ROW Component="vcruntime140d.dll" ComponentId="{4EAB7309-12E8-444E-8AF3-140C4D5D1D76}" Directory_="Debug_Dir" Attributes="256" KeyPath="vcruntime140d.dll"/>
+    <ROW Component="zlib.dll" ComponentId="{CC8D7CAB-BF08-4240-8664-21B42C31E9D5}" Directory_="Debug_Dir" Attributes="256" KeyPath="zlib.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0" Components="BACKEND_21PinkTeam.sql BackendServer.ini ConfigureEditCN.exe ConfigureEditEN.exe ProductInformation RunEnviroment.zip TeamCenterServer.exe TeamDLServer.pdb TeamFlashPolicyServer.exe TeamGameServer.exe TeamGameServer.pdb TeamGameServer.pdb_1 TeamHallServer.exe TeamWebBackendServer.exe TeamWebSocketServer.exe libcurl.dll libeay32.dll libmysql.dll libssh2.dll msvcp140d.dll msvcr110d.dll ssleay32.dll ucrtbased.dll vcruntime140d.dll zlib.dll"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="BACKEND_21PinkTeam.sql" Component_="BACKEND_21PinkTeam.sql" FileName="BACKEN~1.SQL|BACKEND_21PinkTeam.sql" Attributes="0" SourcePath="..\TeamScript\BACKEND_21PinkTeam.sql" SelfReg="false" NextFile="DB_21PinkTeam.sql"/>
+    <ROW File="BackendServer.ico" Component_="RunEnviroment.zip" FileName="BACKEN~1.ICO|BackendServer.ico" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\BackendServer.ico" SelfReg="false" NextFile="BackendServer.ini"/>
+    <ROW File="BackendServer.ini" Component_="RunEnviroment.zip" FileName="BACKEN~1.INI|BackendServer.ini" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\BackendServer.ini" SelfReg="false" NextFile="Center.ini"/>
+    <ROW File="BackendServer.ini_1" Component_="BackendServer.ini" FileName="BACKEN~1.INI|BackendServer.ini" Attributes="0" SourcePath="..\Bin\Platform\Linux\Debug\BackendServer.ini" SelfReg="false" NextFile="Center.ini_1"/>
+    <ROW File="Center.ini" Component_="RunEnviroment.zip" FileName="Center.ini" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\Center.ini" SelfReg="false" NextFile="CenterServer.ico"/>
+    <ROW File="Center.ini_1" Component_="BackendServer.ini" FileName="Center.ini" Attributes="0" SourcePath="..\Bin\Platform\Linux\Debug\Center.ini" SelfReg="false" NextFile="DBLogServer.ini_1"/>
+    <ROW File="CenterServer.ico" Component_="RunEnviroment.zip" FileName="CENTER~1.ICO|CenterServer.ico" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\CenterServer.ico" SelfReg="false" NextFile="ConfigureEditCN.exe"/>
+    <ROW File="ConfigureEditCN.exe" Component_="ConfigureEditCN.exe" FileName="CONFIG~1.EXE|ConfigureEditCN.exe" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\ConfigureEditCN.exe" SelfReg="false" NextFile="ConfigureEditEN.exe" DigSign="true"/>
+    <ROW File="ConfigureEditEN.exe" Component_="ConfigureEditEN.exe" FileName="CONFIG~2.EXE|ConfigureEditEN.exe" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\ConfigureEditEN.exe" SelfReg="false" NextFile="DB.ico" DigSign="true"/>
+    <ROW File="DB.ico" Component_="RunEnviroment.zip" FileName="DB.ico" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\DB.ico" SelfReg="false" NextFile="DBLogServer.ini"/>
+    <ROW File="DBLOG_21PinkTeam.sql" Component_="BACKEND_21PinkTeam.sql" FileName="DBLOG_~1.SQL|DBLOG_21PinkTeam.sql" Attributes="0" SourcePath="..\TeamScript\DBLOG_21PinkTeam.sql" SelfReg="false"/>
+    <ROW File="DBLogServer.ini" Component_="RunEnviroment.zip" FileName="DBLOGS~1.INI|DBLogServer.ini" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\DBLogServer.ini" SelfReg="false" NextFile="DBServer.ini"/>
+    <ROW File="DBLogServer.ini_1" Component_="BackendServer.ini" FileName="DBLOGS~1.INI|DBLogServer.ini" Attributes="0" SourcePath="..\Bin\Platform\Linux\Debug\DBLogServer.ini" SelfReg="false" NextFile="DBServer.ini_1"/>
+    <ROW File="DBServer.ini" Component_="RunEnviroment.zip" FileName="DBServer.ini" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\DBServer.ini" SelfReg="false" NextFile="flash.ico"/>
+    <ROW File="DBServer.ini_1" Component_="BackendServer.ini" FileName="DBServer.ini" Attributes="0" SourcePath="..\Bin\Platform\Linux\Debug\DBServer.ini" SelfReg="false" NextFile="FlashPolicy.ini_1"/>
+    <ROW File="DB_21PinkTeam.sql" Component_="BACKEND_21PinkTeam.sql" FileName="DB_21P~1.SQL|DB_21PinkTeam.sql" Attributes="0" SourcePath="..\TeamScript\DB_21PinkTeam.sql" SelfReg="false" NextFile="DBLOG_21PinkTeam.sql"/>
+    <ROW File="FlashPolicy.ini" Component_="RunEnviroment.zip" FileName="FLASHP~1.INI|FlashPolicy.ini" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\FlashPolicy.ini" SelfReg="false" NextFile="GameServer.ini"/>
+    <ROW File="FlashPolicy.ini_1" Component_="BackendServer.ini" FileName="FLASHP~1.INI|FlashPolicy.ini" Attributes="0" SourcePath="..\Bin\Platform\Linux\Debug\FlashPolicy.ini" SelfReg="false" NextFile="GameServer.ini_1"/>
+    <ROW File="GameServer.ini" Component_="RunEnviroment.zip" FileName="GAMESE~1.INI|GameServer.ini" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\GameServer.ini" SelfReg="false" NextFile="Gate.ini"/>
+    <ROW File="GameServer.ini_1" Component_="BackendServer.ini" FileName="GAMESE~1.INI|GameServer.ini" Attributes="0" SourcePath="..\Bin\Platform\Linux\Debug\GameServer.ini" SelfReg="false" NextFile="Gate.ini_1"/>
+    <ROW File="Gate.ini" Component_="RunEnviroment.zip" FileName="Gate.ini" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\Gate.ini" SelfReg="false" NextFile="Gateway.ico"/>
+    <ROW File="Gate.ini_1" Component_="BackendServer.ini" FileName="Gate.ini" Attributes="0" SourcePath="..\Bin\Platform\Linux\Debug\Gate.ini" SelfReg="false" NextFile="HallServer.ini_1"/>
+    <ROW File="Gateway.ico" Component_="RunEnviroment.zip" FileName="Gateway.ico" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\Gateway.ico" SelfReg="false" NextFile="HallServer.ico"/>
+    <ROW File="HallServer.ico" Component_="RunEnviroment.zip" FileName="HALLSE~1.ICO|HallServer.ico" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\HallServer.ico" SelfReg="false" NextFile="HallServer.ini"/>
+    <ROW File="HallServer.ini" Component_="RunEnviroment.zip" FileName="HALLSE~1.INI|HallServer.ini" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\HallServer.ini" SelfReg="false" NextFile="libcurl.dll"/>
+    <ROW File="HallServer.ini_1" Component_="BackendServer.ini" FileName="HALLSE~1.INI|HallServer.ini" Attributes="0" SourcePath="..\Bin\Platform\Linux\Debug\HallServer.ini" SelfReg="false" NextFile="launch_mux.sh"/>
+    <ROW File="Poker.ico" Component_="RunEnviroment.zip" FileName="Poker.ico" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\Poker.ico" SelfReg="false" NextFile="ssleay32.dll"/>
+    <ROW File="RunEnviroment.zip" Component_="RunEnviroment.zip" FileName="RUNENV~1.ZIP|RunEnviroment.zip" Attributes="0" SourcePath="..\Bin\Platform\Windows\RunEnviroment.zip" SelfReg="false" NextFile="BACKEND_21PinkTeam.sql"/>
+    <ROW File="Start.bat" Component_="RunEnviroment.zip" FileName="Start.bat" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\Start.bat" SelfReg="false" NextFile="Stop.bat"/>
+    <ROW File="Stop.bat" Component_="RunEnviroment.zip" FileName="Stop.bat" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\Stop.bat" SelfReg="false" NextFile="TeamCenterServer.ilk"/>
+    <ROW File="TeamCenterServer" Component_="BackendServer.ini" FileName="TEAMCE~1|TeamCenterServer" Attributes="0" SourcePath="..\Bin\Platform\Linux\Debug\TeamCenterServer" SelfReg="false" NextFile="TeamDBServer"/>
+    <ROW File="TeamCenterServer.exe" Component_="TeamCenterServer.exe" FileName="TEAMCE~1.EXE|TeamCenterServer.exe" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\TeamCenterServer.exe" SelfReg="false" NextFile="TeamWebBackendServer.exe" DigSign="true"/>
+    <ROW File="TeamCenterServer.ilk" Component_="RunEnviroment.zip" FileName="TEAMCE~1.ILK|TeamCenterServer.ilk" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\TeamCenterServer.ilk" SelfReg="false" NextFile="TeamCenterServer.pdb"/>
+    <ROW File="TeamCenterServer.pdb" Component_="TeamGameServer.pdb_1" FileName="TEAMCE~1.PDB|TeamCenterServer.pdb" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\TeamCenterServer.pdb" SelfReg="false" NextFile="TeamDBServer.ilk"/>
+    <ROW File="TeamDBServer" Component_="BackendServer.ini" FileName="TEAMDB~1|TeamDBServer" Attributes="0" SourcePath="..\Bin\Platform\Linux\Debug\TeamDBServer" SelfReg="false" NextFile="TeamDLServer"/>
+    <ROW File="TeamDBServer.exe" Component_="TeamGameServer.pdb" FileName="TEAMDB~1.EXE|TeamDBServer.exe" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\TeamDBServer.exe" SelfReg="false" NextFile="TeamCenterServer.exe" DigSign="true"/>
+    <ROW File="TeamDBServer.ilk" Component_="RunEnviroment.zip" FileName="TEAMDB~1.ILK|TeamDBServer.ilk" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\TeamDBServer.ilk" SelfReg="false" NextFile="TeamDBServer.pdb"/>
+    <ROW File="TeamDBServer.pdb" Component_="TeamGameServer.pdb_1" FileName="TEAMDB~1.PDB|TeamDBServer.pdb" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\TeamDBServer.pdb" SelfReg="false" NextFile="TeamDLServer.ilk"/>
+    <ROW File="TeamDLServer" Component_="BackendServer.ini" FileName="TEAMDL~1|TeamDLServer" Attributes="0" SourcePath="..\Bin\Platform\Linux\Debug\TeamDLServer" SelfReg="false" NextFile="TeamFlashPolicyServer"/>
+    <ROW File="TeamDLServer.exe" Component_="TeamDLServer.pdb" FileName="TEAMDL~1.EXE|TeamDLServer.exe" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\TeamDLServer.exe" SelfReg="false" NextFile="TeamGameServer.exe" DigSign="true"/>
+    <ROW File="TeamDLServer.ilk" Component_="RunEnviroment.zip" FileName="TEAMDL~1.ILK|TeamDLServer.ilk" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\TeamDLServer.ilk" SelfReg="false" NextFile="TeamDLServer.pdb"/>
+    <ROW File="TeamDLServer.pdb" Component_="TeamGameServer.pdb_1" FileName="TEAMDL~1.PDB|TeamDLServer.pdb" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\TeamDLServer.pdb" SelfReg="false" NextFile="TeamFlashPolicyServer.ilk"/>
+    <ROW File="TeamFlashPolicyServer" Component_="BackendServer.ini" FileName="TEAMFL~1|TeamFlashPolicyServer" Attributes="0" SourcePath="..\Bin\Platform\Linux\Debug\TeamFlashPolicyServer" SelfReg="false" NextFile="TeamGameServer"/>
+    <ROW File="TeamFlashPolicyServer.exe" Component_="TeamFlashPolicyServer.exe" FileName="TEAMFL~1.EXE|TeamFlashPolicyServer.exe" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\TeamFlashPolicyServer.exe" SelfReg="false" NextFile="TeamDLServer.exe" DigSign="true"/>
+    <ROW File="TeamFlashPolicyServer.ilk" Component_="RunEnviroment.zip" FileName="TEAMFL~1.ILK|TeamFlashPolicyServer.ilk" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\TeamFlashPolicyServer.ilk" SelfReg="false" NextFile="TeamFlashPolicyServer.pdb"/>
+    <ROW File="TeamFlashPolicyServer.pdb" Component_="TeamGameServer.pdb_1" FileName="TEAMFL~1.PDB|TeamFlashPolicyServer.pdb" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\TeamFlashPolicyServer.pdb" SelfReg="false" NextFile="TeamGameServer.ilk"/>
+    <ROW File="TeamGameServer" Component_="BackendServer.ini" FileName="TEAMGA~1|TeamGameServer" Attributes="0" SourcePath="..\Bin\Platform\Linux\Debug\TeamGameServer" SelfReg="false" NextFile="TeamGateServer"/>
+    <ROW File="TeamGameServer.exe" Component_="TeamGameServer.exe" FileName="TEAMGA~2.EXE|TeamGameServer.exe" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\TeamGameServer.exe" SelfReg="false" NextFile="TeamDBServer.exe" DigSign="true"/>
+    <ROW File="TeamGameServer.ilk" Component_="RunEnviroment.zip" FileName="TEAMGA~2.ILK|TeamGameServer.ilk" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\TeamGameServer.ilk" SelfReg="false" NextFile="TeamGameServer.pdb"/>
+    <ROW File="TeamGameServer.pdb" Component_="TeamGameServer.pdb_1" FileName="TEAMGA~1.PDB|TeamGameServer.pdb" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\TeamGameServer.pdb" SelfReg="false" NextFile="TeamGateServer.ilk"/>
+    <ROW File="TeamGateServer" Component_="BackendServer.ini" FileName="TEAMGA~2|TeamGateServer" Attributes="0" SourcePath="..\Bin\Platform\Linux\Debug\TeamGateServer" SelfReg="false" NextFile="TeamHallServer"/>
+    <ROW File="TeamGateServer.exe" Component_="TeamGameServer.pdb_1" FileName="TEAMGA~1.EXE|TeamGateServer.exe" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\TeamGateServer.exe" SelfReg="false" NextFile="TeamFlashPolicyServer.exe" DigSign="true"/>
+    <ROW File="TeamGateServer.ilk" Component_="RunEnviroment.zip" FileName="TEAMGA~1.ILK|TeamGateServer.ilk" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\TeamGateServer.ilk" SelfReg="false" NextFile="TeamGateServer.pdb"/>
+    <ROW File="TeamGateServer.pdb" Component_="TeamGameServer.pdb_1" FileName="TEAMGA~2.PDB|TeamGateServer.pdb" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\TeamGateServer.pdb" SelfReg="false" NextFile="TeamHallServer.ilk"/>
+    <ROW File="TeamHallServer" Component_="BackendServer.ini" FileName="TEAMHA~1|TeamHallServer" Attributes="0" SourcePath="..\Bin\Platform\Linux\Debug\TeamHallServer" SelfReg="false" NextFile="TeamWebBackendServer"/>
+    <ROW File="TeamHallServer.exe" Component_="TeamHallServer.exe" FileName="TEAMHA~1.EXE|TeamHallServer.exe" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\TeamHallServer.exe" SelfReg="false" NextFile="BackendServer.ico" DigSign="true"/>
+    <ROW File="TeamHallServer.ilk" Component_="RunEnviroment.zip" FileName="TEAMHA~1.ILK|TeamHallServer.ilk" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\TeamHallServer.ilk" SelfReg="false" NextFile="TeamWebBackendServer.ilk"/>
+    <ROW File="TeamWebBackendServer" Component_="BackendServer.ini" FileName="TEAMWE~1|TeamWebBackendServer" Attributes="0" SourcePath="..\Bin\Platform\Linux\Debug\TeamWebBackendServer" SelfReg="false" NextFile="TeamWebsocketServer"/>
+    <ROW File="TeamWebBackendServer.exe" Component_="TeamWebBackendServer.exe" FileName="TEAMWE~1.EXE|TeamWebBackendServer.exe" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\TeamWebBackendServer.exe" SelfReg="false" NextFile="TeamWebSocketServer.exe" DigSign="true"/>
+    <ROW File="TeamWebBackendServer.ilk" Component_="RunEnviroment.zip" FileName="TEAMWE~1.ILK|TeamWebBackendServer.ilk" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\TeamWebBackendServer.ilk" SelfReg="false" NextFile="TeamWebSocketServer.ilk"/>
+    <ROW File="TeamWebSocketServer.exe" Component_="TeamWebSocketServer.exe" FileName="TEAMWE~2.EXE|TeamWebSocketServer.exe" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\TeamWebSocketServer.exe" SelfReg="false" NextFile="TeamHallServer.exe" DigSign="true"/>
+    <ROW File="TeamWebSocketServer.ilk" Component_="RunEnviroment.zip" FileName="TEAMWE~2.ILK|TeamWebSocketServer.ilk" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\TeamWebSocketServer.ilk" SelfReg="false" NextFile="WebSocketServer.ico"/>
+    <ROW File="TeamWebsocketServer" Component_="BackendServer.ini" FileName="TEAMWE~2|TeamWebsocketServer" Attributes="0" SourcePath="..\Bin\Platform\Linux\Debug\TeamWebsocketServer" SelfReg="false" NextFile="terminate_mux.sh"/>
+    <ROW File="WebSocketServer.ico" Component_="RunEnviroment.zip" FileName="WEBSOC~1.ICO|WebSocketServer.ico" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\WebSocketServer.ico" SelfReg="false" NextFile="WebSocketServer.ini"/>
+    <ROW File="WebSocketServer.ini" Component_="RunEnviroment.zip" FileName="WEBSOC~1.INI|WebSocketServer.ini" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\WebSocketServer.ini" SelfReg="false" NextFile="zlib.dll"/>
+    <ROW File="WebSocketServer.ini_1" Component_="BackendServer.ini" FileName="WEBSOC~1.INI|WebSocketServer.ini" Attributes="0" SourcePath="..\Bin\Platform\Linux\Debug\WebSocketServer.ini" SelfReg="false" NextFile="msvcp140d.dll"/>
+    <ROW File="flash.ico" Component_="RunEnviroment.zip" FileName="flash.ico" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\flash.ico" SelfReg="false" NextFile="FlashPolicy.ini"/>
+    <ROW File="launch_mux.sh" Component_="BackendServer.ini" FileName="LAUNCH~1.SH|launch_mux.sh" Attributes="0" SourcePath="..\Bin\Platform\Linux\Debug\launch_mux.sh" SelfReg="false" NextFile="TeamCenterServer"/>
+    <ROW File="libcurl.dll" Component_="libcurl.dll" FileName="libcurl.dll" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\libcurl.dll" SelfReg="false" NextFile="libeay32.dll"/>
+    <ROW File="libeay32.dll" Component_="libeay32.dll" FileName="libeay32.dll" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\libeay32.dll" SelfReg="false" NextFile="libmysql.dll"/>
+    <ROW File="libmysql.dll" Component_="libmysql.dll" FileName="libmysql.dll" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\libmysql.dll" SelfReg="false" NextFile="libssh2.dll"/>
+    <ROW File="libssh2.dll" Component_="libssh2.dll" FileName="libssh2.dll" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\libssh2.dll" SelfReg="false" NextFile="log.ico"/>
+    <ROW File="log.ico" Component_="RunEnviroment.zip" FileName="log.ico" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\log.ico" SelfReg="false" NextFile="msvcr110d.dll"/>
+    <ROW File="msvcp140d.dll" Component_="msvcp140d.dll" FileName="MSVCP1~1.DLL|msvcp140d.dll" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\msvcp140d.dll" SelfReg="false" NextFile="ucrtbased.dll"/>
+    <ROW File="msvcr110d.dll" Component_="msvcr110d.dll" FileName="MSVCR1~1.DLL|msvcr110d.dll" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\msvcr110d.dll" SelfReg="false" NextFile="Poker.ico"/>
+    <ROW File="ssleay32.dll" Component_="ssleay32.dll" FileName="ssleay32.dll" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\ssleay32.dll" SelfReg="false" NextFile="Start.bat"/>
+    <ROW File="terminate_mux.sh" Component_="BackendServer.ini" FileName="TERMIN~1.SH|terminate_mux.sh" Attributes="0" SourcePath="..\Bin\Platform\Linux\Debug\terminate_mux.sh" SelfReg="false" NextFile="WebSocketServer.ini_1"/>
+    <ROW File="ucrtbased.dll" Component_="ucrtbased.dll" FileName="UCRTBA~1.DLL|ucrtbased.dll" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\ucrtbased.dll" SelfReg="false" NextFile="vcruntime140d.dll"/>
+    <ROW File="vcruntime140d.dll" Component_="vcruntime140d.dll" FileName="VCRUNT~1.DLL|vcruntime140d.dll" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\vcruntime140d.dll" SelfReg="false" NextFile="RunEnviroment.zip"/>
+    <ROW File="zlib.dll" Component_="zlib.dll" FileName="zlib.dll" Attributes="0" SourcePath="..\Bin\Platform\Windows\X64\Debug\zlib.dll" SelfReg="false" NextFile="BackendServer.ini_1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="x64_Debug" BuildName="x64_Debug" BuildOrder="1" BuildType="0" PackageFolder="..\MSI" PackageFileName="TeamServerCluster_Setup" Languages="en" InstallationType="4" UseLargeSchema="true"/>
+    <ATTRIBUTE name="CurrentBuild" value="x64_Debug"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="SetupTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SetupTypeDlg.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="SetupTypeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="204"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="SetupTypeDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="TypicalButton" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="205"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="CompleteButton" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL AND InstallMode=InstallModeComplete" Ordering="201"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="SetupTypeDlg" Condition="AI_INSTALL AND InstallMode=InstallModeComplete" Ordering="203"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL AND InstallMode=InstallModeCustom" Ordering="102"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_INSTALL AND InstallMode=InstallModeCustom" Ordering="202"/>
+    <ROW Dialog_="SetupTypeDlg" Control_="CustomButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_INSTALL AND InstallMode=InstallModeCustom" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="SetupTypeDlg" Condition="AI_INSTALL AND InstallMode=InstallModeCustom" Ordering="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_DpiContentScale" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] cannot be installed on [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="x64_Debug"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] cannot be installed on [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="x64_Debug"/>
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="x64_Debug"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+</DOCUMENT>

@@ -1,0 +1,847 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Protocols">
+      <UniqueIdentifier>{9ee17a22-38a9-42c7-b00e-738e42bd5d72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{7d09c283-4a09-4cef-bf35-32d3cce82272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic">
+      <UniqueIdentifier>{927f98be-8060-4fd3-82c1-bf82fe4bddb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Message">
+      <UniqueIdentifier>{3416085a-ba5a-4a23-90a2-df5e1c79bc91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\WebSocket">
+      <UniqueIdentifier>{aa64ab4f-23ac-459e-8b3a-1179b7a6a343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\WebFrameFilter">
+      <UniqueIdentifier>{9b7aeaa0-3c62-4e2c-b3d8-ad341baafcea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Message\WHMessage">
+      <UniqueIdentifier>{9f0dc79b-afff-4fcf-b0b0-52cec87160ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Message\WBMessage">
+      <UniqueIdentifier>{efb5351d-4fd4-4338-b581-8d8e3b1624af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocols\WHProtocol">
+      <UniqueIdentifier>{5b42f694-a1a1-466e-bb34-e1f3a565cc82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocols\WBProtocol">
+      <UniqueIdentifier>{db681f97-e36d-4922-824f-2776c45dc415}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocols\WSSProtocol">
+      <UniqueIdentifier>{e30b77d5-4902-4d21-bbbe-1020fa5442c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Message\WSSMessage">
+      <UniqueIdentifier>{cd1a85fb-e3c7-4f87-b813-e7905c2ebd00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="posiden">
+      <UniqueIdentifier>{dab80d98-87a4-4df7-9a08-9ff5725bbeb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="posiden\src">
+      <UniqueIdentifier>{c4a49767-04b8-4e4f-8f27-4263a3e3dc59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="posiden\utilities">
+      <UniqueIdentifier>{e37e1e7c-d3ad-4588-a545-1e0a262f6411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="posiden\src\cbpp">
+      <UniqueIdentifier>{843e7067-9805-479e-ad2c-b005d3f35a63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="posiden\src\http">
+      <UniqueIdentifier>{bee082ef-1a7f-4941-9be5-cd9d17d1c1bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="posiden\src\mongodb">
+      <UniqueIdentifier>{b096a6d8-61bb-4742-8e3c-106e89f8aaf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="posiden\src\mysql">
+      <UniqueIdentifier>{9d9e62a4-900f-4058-a7d5-a5bea06c59d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="posiden\src\singletons">
+      <UniqueIdentifier>{0a56b631-e08b-489f-af47-226ec3af76ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="posiden\src\websocket">
+      <UniqueIdentifier>{3639fd43-a2a1-47bf-b5cf-43da4309204d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\WebSocketServer.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\WebSocketService.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\ConfigFile.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\DataBuffer.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\WebSocketApplication.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\PlayerClient.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\main.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamWS\WebSocketServer\Logic\WebSocket\WebSocketWorker.cpp">
+      <Filter>Logic\WebSocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamWS\WebSocketServer\Logic\WebSocket\WebSocketFrameHandler.cpp">
+      <Filter>Logic\WebSocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamWS\WebSocketServer\Logic\WebFrameFilter\WebFrameFilter.cpp">
+      <Filter>Logic\WebFrameFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\BackendClient.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\BaseDefine.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\HallClient.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamWS\WebSocketServer\Logic\Message\WBMessage\WBMessage.cpp">
+      <Filter>Logic\Message\WBMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamWS\WebSocketServer\Logic\Message\WSSMessage\WSSMessage.cpp">
+      <Filter>Logic\Message\WSSMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamWS\WebSocketServer\Logic\Message\WHMessage\WHMessage.cpp">
+      <Filter>Logic\Message\WHMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamWS\WebSocketServer\Logic\Message\WebMessage.cpp">
+      <Filter>Logic\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\async_job.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\condition_variable.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\config_file.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\csv_parser.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\epoll.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\errno.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\event_base.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\exception.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\file.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\hash.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\ip_port.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\job_base.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\job_promise.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\json.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\log.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\main.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\module_raii.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\mutex.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\optional_map.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\profiler.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\protocol_exception.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\raii.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\random.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\recursive_mutex.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\session_base.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\shared_nts.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\sock_addr.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\socket_server_base.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\ssl_factories.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\ssl_filter_base.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\ssl_raii.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\stream_buffer.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\string.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\system_exception.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\tcp_client_base.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\tcp_server_base.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\tcp_session_base.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\thread.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\time.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\udp_server_base.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\uuid.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\virtual_shared_from_this.cpp">
+      <Filter>posiden\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\cbpp\client.cpp">
+      <Filter>posiden\src\cbpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\cbpp\exception.cpp">
+      <Filter>posiden\src\cbpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\cbpp\low_level_client.cpp">
+      <Filter>posiden\src\cbpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\cbpp\low_level_session.cpp">
+      <Filter>posiden\src\cbpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\cbpp\reader.cpp">
+      <Filter>posiden\src\cbpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\cbpp\session.cpp">
+      <Filter>posiden\src\cbpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\cbpp\writer.cpp">
+      <Filter>posiden\src\cbpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\http\authorization.cpp">
+      <Filter>posiden\src\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\http\client.cpp">
+      <Filter>posiden\src\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\http\client_reader.cpp">
+      <Filter>posiden\src\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\http\client_writer.cpp">
+      <Filter>posiden\src\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\http\const_strings.cpp">
+      <Filter>posiden\src\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\http\exception.cpp">
+      <Filter>posiden\src\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\http\low_level_client.cpp">
+      <Filter>posiden\src\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\http\low_level_session.cpp">
+      <Filter>posiden\src\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\http\request_headers.cpp">
+      <Filter>posiden\src\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\http\response_headers.cpp">
+      <Filter>posiden\src\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\http\server_reader.cpp">
+      <Filter>posiden\src\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\http\server_writer.cpp">
+      <Filter>posiden\src\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\http\session.cpp">
+      <Filter>posiden\src\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\http\status_codes.cpp">
+      <Filter>posiden\src\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\http\upgraded_session_base.cpp">
+      <Filter>posiden\src\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\http\utilities.cpp">
+      <Filter>posiden\src\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\http\verbs.cpp">
+      <Filter>posiden\src\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\mongodb\bson_builder.cpp">
+      <Filter>posiden\src\mongodb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\mongodb\connection.cpp">
+      <Filter>posiden\src\mongodb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\mongodb\exception.cpp">
+      <Filter>posiden\src\mongodb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\mongodb\object_base.cpp">
+      <Filter>posiden\src\mongodb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\mongodb\oid.cpp">
+      <Filter>posiden\src\mongodb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\mysql\connection.cpp">
+      <Filter>posiden\src\mysql</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\mysql\exception.cpp">
+      <Filter>posiden\src\mysql</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\mysql\object_base.cpp">
+      <Filter>posiden\src\mysql</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\mysql\thread_context.cpp">
+      <Filter>posiden\src\mysql</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\mysql\utilities.cpp">
+      <Filter>posiden\src\mysql</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\websocket\exception.cpp">
+      <Filter>posiden\src\websocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\websocket\handshake.cpp">
+      <Filter>posiden\src\websocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\websocket\low_level_session.cpp">
+      <Filter>posiden\src\websocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\websocket\reader.cpp">
+      <Filter>posiden\src\websocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\websocket\session.cpp">
+      <Filter>posiden\src\websocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\websocket\writer.cpp">
+      <Filter>posiden\src\websocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\singletons\dns_daemon.cpp">
+      <Filter>posiden\src\singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\singletons\epoll_daemon.cpp">
+      <Filter>posiden\src\singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\singletons\event_dispatcher.cpp">
+      <Filter>posiden\src\singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\singletons\job_dispatcher.cpp">
+      <Filter>posiden\src\singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\singletons\main_config.cpp">
+      <Filter>posiden\src\singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\singletons\module_depository.cpp">
+      <Filter>posiden\src\singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\singletons\mongodb_daemon.cpp">
+      <Filter>posiden\src\singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\singletons\mysql_daemon.cpp">
+      <Filter>posiden\src\singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\singletons\profile_depository.cpp">
+      <Filter>posiden\src\singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\singletons\system_http_server.cpp">
+      <Filter>posiden\src\singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\singletons\timer_daemon.cpp">
+      <Filter>posiden\src\singletons</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\WebSocketServer.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\WebSocketService.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\ConfigFile.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\DataBuffer.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\WebSocketApplication.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\PlayerClient.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamWS\WebSocketServer\Logic\WebSocket\WebSocketWorker.h">
+      <Filter>Logic\WebSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamWS\WebSocketServer\Logic\WebSocket\WebSocketFrameHandler.h">
+      <Filter>Logic\WebSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamWS\WebSocketServer\Logic\WebFrameFilter\WebFrameFilter.h">
+      <Filter>Logic\WebFrameFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\CommonProtocol.h">
+      <Filter>Protocols</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\BasePacket.h">
+      <Filter>Protocols</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\BackendClient.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\BaseDefine.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\HallClient.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamWS\WebSocketServer\Logic\Message\WBMessage\WBMessage.h">
+      <Filter>Logic\Message\WBMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\WBProtocol\WBProtocol.h">
+      <Filter>Protocols\WBProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\WBProtocol\WBProtocol_Ping.h">
+      <Filter>Protocols\WBProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\WHProtocol\WHProtocol.h">
+      <Filter>Protocols\WHProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\WHProtocol\WHProtocol_Ping.h">
+      <Filter>Protocols\WHProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\WSSProtocol\WSSProtocol.h">
+      <Filter>Protocols\WSSProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\WSSProtocol\WSSProtocol_Online.h">
+      <Filter>Protocols\WSSProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamWS\WebSocketServer\Logic\Message\WSSMessage\WSSMessage.h">
+      <Filter>Logic\Message\WSSMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamWS\WebSocketServer\Logic\Message\WHMessage\WHMessage.h">
+      <Filter>Logic\Message\WHMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamWS\WebSocketServer\Logic\Message\WebMessage.h">
+      <Filter>Logic\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\async_job.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\atomic.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\condition_variable.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\config_file.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\csv_parser.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\cxx_util.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\cxx_ver.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\endian.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\epoll.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\errno.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\event_base.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\exception.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\file.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\flags.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\fwd.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\hash.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\ip_port.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\job_base.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\job_promise.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\json.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\log.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\module_config.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\module_raii.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\multi_index_map.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\mutex.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\optional_map.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\precompiled.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\profiler.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\protocol_exception.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\raii.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\random.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\recursive_mutex.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\session_base.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\shared_nts.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\sock_addr.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\socket_server_base.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\ssl_factories.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\ssl_filter_base.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\ssl_raii.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\stream_buffer.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\string.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\system_exception.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\tcp_client_base.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\tcp_server_base.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\tcp_session_base.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\thread.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\time.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\udp_server_base.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\uuid.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\vint64.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\virtual_shared_from_this.hpp">
+      <Filter>posiden\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\cbpp\client.hpp">
+      <Filter>posiden\src\cbpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\cbpp\control_codes.hpp">
+      <Filter>posiden\src\cbpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\cbpp\control_message.hpp">
+      <Filter>posiden\src\cbpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\cbpp\exception.hpp">
+      <Filter>posiden\src\cbpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\cbpp\fwd.hpp">
+      <Filter>posiden\src\cbpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\cbpp\low_level_client.hpp">
+      <Filter>posiden\src\cbpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\cbpp\low_level_session.hpp">
+      <Filter>posiden\src\cbpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\cbpp\message_base.hpp">
+      <Filter>posiden\src\cbpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\cbpp\message_generator.hpp">
+      <Filter>posiden\src\cbpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\cbpp\reader.hpp">
+      <Filter>posiden\src\cbpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\cbpp\session.hpp">
+      <Filter>posiden\src\cbpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\cbpp\status_codes.hpp">
+      <Filter>posiden\src\cbpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\cbpp\writer.hpp">
+      <Filter>posiden\src\cbpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\http\authorization.hpp">
+      <Filter>posiden\src\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\http\client.hpp">
+      <Filter>posiden\src\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\http\client_reader.hpp">
+      <Filter>posiden\src\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\http\client_writer.hpp">
+      <Filter>posiden\src\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\http\const_strings.hpp">
+      <Filter>posiden\src\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\http\exception.hpp">
+      <Filter>posiden\src\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\http\fwd.hpp">
+      <Filter>posiden\src\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\http\low_level_client.hpp">
+      <Filter>posiden\src\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\http\low_level_session.hpp">
+      <Filter>posiden\src\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\http\request_headers.hpp">
+      <Filter>posiden\src\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\http\response_headers.hpp">
+      <Filter>posiden\src\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\http\server_reader.hpp">
+      <Filter>posiden\src\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\http\server_writer.hpp">
+      <Filter>posiden\src\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\http\session.hpp">
+      <Filter>posiden\src\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\http\status_codes.hpp">
+      <Filter>posiden\src\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\http\upgraded_session_base.hpp">
+      <Filter>posiden\src\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\http\utilities.hpp">
+      <Filter>posiden\src\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\http\verbs.hpp">
+      <Filter>posiden\src\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\mongodb\bson_builder.hpp">
+      <Filter>posiden\src\mongodb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\mongodb\connection.hpp">
+      <Filter>posiden\src\mongodb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\mongodb\exception.hpp">
+      <Filter>posiden\src\mongodb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\mongodb\fwd.hpp">
+      <Filter>posiden\src\mongodb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\mongodb\object_base.hpp">
+      <Filter>posiden\src\mongodb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\mongodb\object_generator.hpp">
+      <Filter>posiden\src\mongodb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\mongodb\oid.hpp">
+      <Filter>posiden\src\mongodb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\mysql\connection.hpp">
+      <Filter>posiden\src\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\mysql\exception.hpp">
+      <Filter>posiden\src\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\mysql\fwd.hpp">
+      <Filter>posiden\src\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\mysql\object_base.hpp">
+      <Filter>posiden\src\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\mysql\object_generator.hpp">
+      <Filter>posiden\src\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\mysql\thread_context.hpp">
+      <Filter>posiden\src\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\mysql\utilities.hpp">
+      <Filter>posiden\src\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\websocket\exception.hpp">
+      <Filter>posiden\src\websocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\websocket\fwd.hpp">
+      <Filter>posiden\src\websocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\websocket\handshake.hpp">
+      <Filter>posiden\src\websocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\websocket\low_level_session.hpp">
+      <Filter>posiden\src\websocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\websocket\opcodes.hpp">
+      <Filter>posiden\src\websocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\websocket\reader.hpp">
+      <Filter>posiden\src\websocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\websocket\session.hpp">
+      <Filter>posiden\src\websocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\websocket\status_codes.hpp">
+      <Filter>posiden\src\websocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\websocket\writer.hpp">
+      <Filter>posiden\src\websocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\singletons\dns_daemon.hpp">
+      <Filter>posiden\src\singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\singletons\epoll_daemon.hpp">
+      <Filter>posiden\src\singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\singletons\event_dispatcher.hpp">
+      <Filter>posiden\src\singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\singletons\job_dispatcher.hpp">
+      <Filter>posiden\src\singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\singletons\main_config.hpp">
+      <Filter>posiden\src\singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\singletons\module_depository.hpp">
+      <Filter>posiden\src\singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\singletons\mongodb_daemon.hpp">
+      <Filter>posiden\src\singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\singletons\mysql_daemon.hpp">
+      <Filter>posiden\src\singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\singletons\profile_depository.hpp">
+      <Filter>posiden\src\singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\singletons\system_http_server.hpp">
+      <Filter>posiden\src\singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\singletons\timer_daemon.hpp">
+      <Filter>posiden\src\singletons</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TeamWebSocketServer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\x64\Debug\TeamWebSocketServer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

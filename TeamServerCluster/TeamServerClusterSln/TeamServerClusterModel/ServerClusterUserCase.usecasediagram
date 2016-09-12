@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="9848bd34-fa8b-4f22-b6d9-438fcf3375e4" name="ServerClusterUserCase" linkedPackageId="f886b766-90cb-42f9-94cf-325f3d4685ad" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <ownedCommentsInternal>
+    <comment Id="845e3287-60cb-4587-816a-2b7078f54a66">
+      <elementDefinition Id="c3070539-e1e5-4f55-91cb-8bbd6552ff1f" />
+    </comment>
+    <comment Id="a03129fa-8c1b-4af2-82f2-c0c607af9efa">
+      <elementDefinition Id="e6322995-ed15-4150-bbc0-561d9673471b" />
+    </comment>
+    <comment Id="6ef3e099-886b-42ae-9722-20b896030225">
+      <elementDefinition Id="47a96ac5-fa7b-4261-b825-ace8b75e33a8" />
+    </comment>
+    <comment Id="3a47748d-6494-4df0-9ac4-5e44f436e854">
+      <elementDefinition Id="b9db939b-674c-4a89-af18-45f0af529a9a" />
+    </comment>
+  </ownedCommentsInternal>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="a472b970-dc31-4ae5-918a-7c1291bb1f29" name="TeamServerCluster" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="cdb60d9e-9747-4075-8919-8c9b2fd40e2a" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="e54542c6-9135-4ce7-ac81-be046f25fc80" name="WebClient" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="017739ad-7f49-424a-866e-d70e9306e401" />
+        <targetEnds>
+          <association Id="b0296601-955c-4ece-a99b-4378b62835db" isDerived="false" sourceEndRoleName="WebClient" targetEndRoleName="Gate" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="350503b0-6fe7-4885-b4f9-c255d1f8b74d" LastKnownName="GT" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1fe4e448-eed3-4f17-9eb8-4e39b656f43b" name="WebClient" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b54e359f-88af-4973-a1df-28b0cc4deb91" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="57804c85-1dc7-4d51-bd44-d42f4608d2b2" name="Gate" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="238b6023-fe88-464b-a588-88f16ef941ac" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="aa0b37f6-43d8-4c06-b98d-e2a311af3b41" />
+          </association>
+          <association Id="a1fd9a52-fa4d-4807-a3c9-69cae3c85bb9" isDerived="false" sourceEndRoleName="WebClient" targetEndRoleName="FPS" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="45f802d5-529c-4164-9bd9-8f57203bfd29" LastKnownName="FPS" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d9c41ad0-df92-4ab3-a8bc-7874c2b0f72d" name="WebClient" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="51a16e59-de07-4901-9c32-a5606197156b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e30de1f0-3e6f-49c6-8c35-44c16d438341" name="FPS" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="5ece88d2-70a1-497e-8646-78fbe1cadc94" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="408b349b-2969-46d2-ba4d-e89b28880d18" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="4385cdf2-d5fa-4957-9e0f-e857dc24e4c7" name="IosClient" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3b97ef51-f824-496a-866c-c2e1ffa5cefa" />
+        <targetEnds>
+          <association Id="6d04f5d0-d727-481a-8fea-084464ea3481" isDerived="false" sourceEndRoleName="IosClient" targetEndRoleName="Gate" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="350503b0-6fe7-4885-b4f9-c255d1f8b74d" LastKnownName="GT" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d48fb63a-d723-42dd-adfb-fae10207ea1b" name="IosClient" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2a6e4d4b-4ac3-4484-8da1-e4c6d6acf69c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f25b9696-c4b1-4fe0-ab39-4b4207fc1c88" name="Gate" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f9525259-64a4-41b4-b234-bf1d89292837" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a61c7a36-603c-4603-9524-5ee0cf0dfbd5" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="3e70c705-5c66-4d08-bc8a-375ac32224a0" name="AndroidClient" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5c62d9b8-33a5-42fb-99fe-47a827c6715f" />
+        <targetEnds>
+          <association Id="61da98d9-8ab9-4b25-8f1f-a1321eba1ef7" isDerived="false" sourceEndRoleName="AndroidClient" targetEndRoleName="Gate" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="350503b0-6fe7-4885-b4f9-c255d1f8b74d" LastKnownName="GT" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2d1ac1bb-2b7f-488b-9a0e-63652bdcd643" name="AndroidClient" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="5fb7e9a5-e1d4-4455-9140-1babf59aff80" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="02f94725-eee0-4428-a8c2-c3a395f4bc30" name="Gate" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="548c2486-9197-453d-99c9-37f2889a067f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b1cc3236-1da6-40ef-9c8c-fe012c78f5ab" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="47ef79ef-e73c-478d-bf97-8e91c75aa720" name="WebPlatSite" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="07b8eae9-51b3-49ad-9e01-8887e10ab75b" />
+        <targetEnds>
+          <association Id="68e8a43b-6161-4321-abe0-20bea9f7b7fa" isDerived="false" sourceEndRoleName="WebPlatSite" targetEndRoleName="WSS" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="0f0ea78e-4a75-40d5-8279-7e8077c9e2d8" LastKnownName="WSS" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b89170bb-57b2-4c0e-b0e6-551f9340b3bf" name="WebPlatSite" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1309d309-b33d-4856-976b-0740e5da1368" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="104299c9-b6d4-4e37-9279-3c35b4dba41d" name="WSS" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="dfdea213-7e0e-4c1f-a375-609abf3e622f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="81697d21-c519-47b2-a244-77c1fc930ca0" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="350503b0-6fe7-4885-b4f9-c255d1f8b74d" name="GT" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="75cb7c00-bc15-49e7-8801-31fc1228e484" />
+        <targetEnds>
+          <association Id="aa96a5e4-6cca-4afa-8b2a-3d73b1136e5c" isDerived="false" sourceEndRoleName="GT" targetEndRoleName="GS" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="1d5bce85-5aa0-4db4-8fd9-77e34b8ff56e" LastKnownName="GS" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c624b719-5238-4836-a395-712969a6fb34" name="GT" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="98f5131d-820d-4b75-9f40-1f469cf3a773" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="28c43523-d12f-42e9-aa22-baeac3df4802" name="GS" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6cbb0109-b40e-4b52-b96c-fb67131c66ff" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ef2b8e6c-3ecc-4777-be4a-9f363bf5e590" />
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker Id="a472b970-dc31-4ae5-918a-7c1291bb1f29" LastKnownName="TeamServerCluster" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="1d5bce85-5aa0-4db4-8fd9-77e34b8ff56e" name="GS" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7999b11d-8ec0-4ef6-b5a6-5315e7235b2d" />
+        <targetEnds>
+          <association Id="b7179551-0950-46e8-9562-c55e10328a32" isDerived="false" sourceEndRoleName="GS" targetEndRoleName="GC" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="298a764f-007d-4401-abef-3c25672cae9b" LastKnownName="GC" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fbc1b1a3-2a10-4ef0-94ec-525f913c4f7b" name="GS" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="3629d62d-92d9-4c4e-be9a-bd12b73a3440" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b5f3ea06-cdcd-4272-8e17-ef2c6dc705c1" name="GC" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6d86ac26-0b41-41fb-a095-6cd520436c5e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6ab27bff-4fe9-4fe3-86f4-7e6bc4f594e7" />
+          </association>
+          <association Id="556778af-ce06-4100-8d59-43704efd9c60" isDerived="false" sourceEndRoleName="GS" targetEndRoleName="DBS" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="931d8886-7128-41ee-8090-15f4fbc409a4" LastKnownName="DBS" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="61d52a84-e431-4160-89db-e2c06a026ba4" name="GS" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a3f8c985-068d-4f8e-875c-91fc0f6fc87b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6d792997-a71a-4274-b726-b4fef8ad9944" name="DBS" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="eb09a85d-d257-436c-847e-0e1c773f1d78" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f7f7c988-a991-4b6c-925f-b30f584d024f" />
+          </association>
+          <association Id="e0266a29-d11a-4eb7-b2fa-771092d28540" isDerived="false" sourceEndRoleName="GS" targetEndRoleName="DLS" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="8182d5bf-5f29-436e-9369-566a2649419a" LastKnownName="DLS" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3369edf3-ab69-46c1-9d48-1d2feda651e4" name="GS" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1e5c138c-2fe5-4346-911b-d9bc92668d3f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ed14b20d-272d-4581-9093-a144240c5a0b" name="DLS" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="41ef9d03-ce79-4649-9439-6f6b474d0ab6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="4c87036a-9be9-4b68-985d-18500fa83308" />
+          </association>
+          <association Id="aa97f023-d4ff-4116-a9f3-2123e25eac27" isDerived="false" sourceEndRoleName="GS" targetEndRoleName="PLatform" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="1bada56d-cb84-4e42-a893-5957caa3bfe5" LastKnownName="PLatform" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e059a379-b56a-4ce2-a053-0670cb2f9d91" name="GS" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1565e3d4-8087-4660-92c1-eb8e33a50349" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ea61885f-7f3f-48d8-8a67-2e4786ba03c1" name="PLatform" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e460411e-38cb-4544-8d51-c06a1bc51836" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="7a62717f-a614-414e-b651-17be04d3d128" />
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker Id="a472b970-dc31-4ae5-918a-7c1291bb1f29" LastKnownName="TeamServerCluster" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="298a764f-007d-4401-abef-3c25672cae9b" name="GC" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f7e9b214-30fa-4b01-ade6-de57eb2c9653" />
+        <subjects>
+          <subsystemMoniker Id="a472b970-dc31-4ae5-918a-7c1291bb1f29" LastKnownName="TeamServerCluster" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="931d8886-7128-41ee-8090-15f4fbc409a4" name="DBS" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7da42c78-8126-407c-8cb5-4cd4c388a899" />
+        <subjects>
+          <subsystemMoniker Id="a472b970-dc31-4ae5-918a-7c1291bb1f29" LastKnownName="TeamServerCluster" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="8182d5bf-5f29-436e-9369-566a2649419a" name="DLS" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8aa90c73-2c6c-4afe-bc70-fd7be547f1f9" />
+        <subjects>
+          <subsystemMoniker Id="a472b970-dc31-4ae5-918a-7c1291bb1f29" LastKnownName="TeamServerCluster" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="79b1c725-9dbc-4fad-abad-f88c4c896575" name="BKS" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="633c3c7d-7150-46f2-a15c-778acd4fb1b4" />
+        <targetEnds>
+          <association Id="902c36ee-307d-432b-ad6a-9835b215e1d7" isDerived="false" sourceEndRoleName="BKS" targetEndRoleName="GC" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="298a764f-007d-4401-abef-3c25672cae9b" LastKnownName="GC" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d2f3e114-9168-419f-9ddd-ac296a886b40" name="BKS" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="baf3da4b-01a1-4fc9-8f7c-afe6744d84f6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c879ec41-517e-4641-8614-7ef42b0772ab" name="GC" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="7afa25f8-7709-4501-a28f-dfb12e14e9d6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="41cdbb7a-199b-431f-9152-e1741f659fbf" />
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker Id="a472b970-dc31-4ae5-918a-7c1291bb1f29" LastKnownName="TeamServerCluster" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="a1310600-7754-4baa-83ac-49015437d8ec" name="HS" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a1043383-03f9-46a4-a28c-bd0dda8bd44e" />
+        <targetEnds>
+          <association Id="9c5ba902-3902-4f7a-a29f-30332fb67e8c" isDerived="false" sourceEndRoleName="HS" targetEndRoleName="GS" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="1d5bce85-5aa0-4db4-8fd9-77e34b8ff56e" LastKnownName="GS" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="783b5810-7884-4211-a540-cf9458e3bca3" name="HS" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="51bdf201-ee60-4752-ad0c-fcd785504335" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cf6b605c-7c38-4bcd-bb04-c2e54da097a1" name="GS" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="59920896-ad3b-43de-9c00-a771632ac3d5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="02ae82b0-6798-4f1d-a269-f07d7006c6f0" />
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker Id="a472b970-dc31-4ae5-918a-7c1291bb1f29" LastKnownName="TeamServerCluster" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="0f0ea78e-4a75-40d5-8279-7e8077c9e2d8" name="WSS" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2669d701-9499-4232-b1ad-1d5e300f9926" />
+        <targetEnds>
+          <association Id="843e6fc0-07fb-4dd3-bbd7-c75b58d55e22" isDerived="false" sourceEndRoleName="WSS" targetEndRoleName="BKS" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="79b1c725-9dbc-4fad-abad-f88c4c896575" LastKnownName="BKS" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c97cc901-c368-4300-9986-cb01ca30bda0" name="WSS" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a7c303c9-1641-407b-a32d-38fdbf30ecf6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d9603dfd-1171-4d39-a67a-7aad710a180a" name="BKS" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ad0a97ca-46fb-4efd-b1f7-d4c2c79d2cbf" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ec3449f4-5588-49aa-bc1a-22702d6e006d" />
+          </association>
+          <association Id="8351a682-2bbb-4126-93e9-f19f3eefc78b" isDerived="false" sourceEndRoleName="WSS" targetEndRoleName="HS" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="a1310600-7754-4baa-83ac-49015437d8ec" LastKnownName="HS" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="696b3668-0e03-48df-87cb-33680923cacd" name="WSS" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b178cbd9-2e3b-4120-8460-680477352aee" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d12f073f-8198-4275-baf3-35c937147aa9" name="HS" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4d11924e-c08b-4381-b527-1dda79303ae9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a1832c61-b63a-437b-8a30-2150bb56dad2" />
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker Id="a472b970-dc31-4ae5-918a-7c1291bb1f29" LastKnownName="TeamServerCluster" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <useCaseModelRootHasTypes>
+      <actor Id="1bada56d-cb84-4e42-a893-5957caa3bfe5" name="PLatform" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="978ce6ee-8df5-4bf1-83dc-2da91d7b7d78" />
+        <targetEnds>
+          <association Id="1f9e85b9-84b8-4098-8734-b2f236c93d89" isDerived="false" sourceEndRoleName="PLatform" targetEndRoleName="GT" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="350503b0-6fe7-4885-b4f9-c255d1f8b74d" LastKnownName="GT" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="95020215-ed5e-457c-a6c6-9bbe27b6441a" name="PLatform" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d1ff038d-4993-445f-9ace-ae2d45344f2b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5dbd3aa3-ef67-4346-b5c4-dcd0219519ee" name="GT" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="03e4a0f0-3070-4453-94d8-b9db306307d5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="291b4e35-748b-435c-9f2d-2b5e2f47bf42" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="45f802d5-529c-4164-9bd9-8f57203bfd29" name="FPS" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9256a138-6df7-487d-bae5-abe93449aebd" />
+        <subjects>
+          <subsystemMoniker Id="a472b970-dc31-4ae5-918a-7c1291bb1f29" LastKnownName="TeamServerCluster" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="13fb378c-7250-4166-9c86-fc7a7e97a609" name="DealerClient" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b900376d-4415-40c6-b00d-e5e3f994c956" />
+        <targetEnds>
+          <association Id="d97ed6fb-7ed6-4d30-8170-a07ca31043a3" isDerived="false" sourceEndRoleName="DealerClient" targetEndRoleName="GT" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="350503b0-6fe7-4885-b4f9-c255d1f8b74d" LastKnownName="GT" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="93bc06c3-fe39-4c40-8fd9-88db2cb6e419" name="DealerClient" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="39435556-9e57-4f38-befd-09dac3c0a5c2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ca6b9bef-1b67-41f8-bb29-c14da50a423c" name="GT" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="59c9001e-9fa8-4278-bfae-07d547927f5d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="2be61450-d9ab-48fe-a2ed-f799516fc42c" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="f886b766-90cb-42f9-94cf-325f3d4685ad" name="TeamServerClusterModel">
+    <elementDefinition Id="f158831f-751e-4f71-9fe4-388205450b17" />
+    <profileInstances>
+      <packageHasProfileInstances Id="0fe6d997-addd-4621-ae4d-99a424028894">
+        <profileInstance Id="8810142d-d4bf-4111-adea-13cd39103bfb" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="8f9ca185-0a0a-49d1-b391-d949a170da31">
+        <profileInstance Id="c7b7e83d-c6d0-4bed-9d5e-16dd38a9fc30" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

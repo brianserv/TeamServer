@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B1E0E43E-480D-4345-9590-4F3149F6E8E2}</ProjectGuid>
+    <RootNamespace>TeamDLServer</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.23107.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\TeamSDK\BaseInterface;..\..\Protocols;..\..\TeamSDK\Lib\third_lib\mysql\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>TeamUtil.lib;TeamNet.lib;libmysql.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\..\Bin\Platform\Windows\X86\Debug\$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>..\..\TeamSDK\Lib\native_lib\Platform\Windows\X86\Debug;..\..\TeamSDK\Lib\third_lib\mysql\windows\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\TeamSDK\BaseInterface;..\..\Protocols;..\..\TeamSDK\Lib\third_lib\mysql\windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>TeamUtil.lib;TeamNet.lib;libmysql.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\..\Bin\Platform\Windows\X64\Debug\$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>..\..\TeamSDK\Lib\native_lib\Platform\Windows\X64\Debug;..\..\TeamSDK\Lib\third_lib\mysql\windows\lib\X64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\FrameWork\BaseDefine.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\FrameWork\ConfigFile.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\FrameWork\DataBuffer.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\FrameWork\DLApplication.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\FrameWork\DLServer.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\FrameWork\DLService.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\FrameWork\main.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\FrameWork\PlayerClient.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\DBCache\DLBetHandler.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\DBCache\DLGmHandler.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\DBCache\DLLoginHandler.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\DBCache\DLLogoutHandler.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\DBCache\DLManager.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\DBCache\DLOnlineHandler.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\DBCache\DLPvgGiftHandler.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\DBCache\DLPvpGiftHandler.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\DBCache\DLRoomHandler.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\DBCache\DLTraceHandler.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Message\DLMessage.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Message\DLMessage_Bet.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Message\DLMessage_GM.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Message\DLMessage_Login.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Message\DLMessage_Logout.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Message\DLMessage_Online.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Message\DLMessage_Ping.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Message\DLMessage_PvgGift.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Message\DLMessage_PvpGift.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Message\DLMessage_Room.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Message\DLMessage_Trace.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Table\DLBet.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Table\DLGm.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Table\DLLogin.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Table\DLLogout.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Table\DLOnline.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Table\DLPvgGift.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Table\DLPvpGift.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Table\DLRoom.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamDL\DLServer\Logic\Table\DLTrace.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\TeamSource\TeamDL\DLServer\FrameWork\BaseDefine.h" />
+    <ClInclude Include="..\..\TeamSource\TeamDL\DLServer\FrameWork\ConfigFile.h" />
+    <ClInclude Include="..\..\TeamSource\TeamDL\DLServer\FrameWork\DataBuffer.h" />
+    <ClInclude Include="..\..\TeamSource\TeamDL\DLServer\FrameWork\DLApplication.h" />
+    <ClInclude Include="..\..\TeamSource\TeamDL\DLServer\FrameWork\DLServer.h" />
+    <ClInclude Include="..\..\TeamSource\TeamDL\DLServer\FrameWork\DLService.h" />
+    <ClInclude Include="..\..\TeamSource\TeamDL\DLServer\FrameWork\PlayerClient.h" />
+    <ClInclude Include="..\..\TeamSource\TeamDL\DLServer\Logic\DBCache\DLManager.h" />
+    <ClInclude Include="..\..\TeamSource\TeamDL\DLServer\Logic\Message\DLMessage.h" />
+    <ClInclude Include="..\..\TeamSource\TeamDL\DLServer\Logic\Table\DLBet.h" />
+    <ClInclude Include="..\..\TeamSource\TeamDL\DLServer\Logic\Table\DLGm.h" />
+    <ClInclude Include="..\..\TeamSource\TeamDL\DLServer\Logic\Table\DLLogin.h" />
+    <ClInclude Include="..\..\TeamSource\TeamDL\DLServer\Logic\Table\DLLogout.h" />
+    <ClInclude Include="..\..\TeamSource\TeamDL\DLServer\Logic\Table\DLOnline.h" />
+    <ClInclude Include="..\..\TeamSource\TeamDL\DLServer\Logic\Table\DLPvgGift.h" />
+    <ClInclude Include="..\..\TeamSource\TeamDL\DLServer\Logic\Table\DLPvpGift.h" />
+    <ClInclude Include="..\..\TeamSource\TeamDL\DLServer\Logic\Table\DLRoom.h" />
+    <ClInclude Include="..\..\TeamSource\TeamDL\DLServer\Logic\Table\DLTrace.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TeamDLServer.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\x64\Debug\log.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

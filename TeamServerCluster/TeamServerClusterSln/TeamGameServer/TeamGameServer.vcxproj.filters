@@ -1,0 +1,520 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{efe3e51b-6c6f-4f6b-8c82-bb596334ed1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic">
+      <UniqueIdentifier>{e7eb0dc1-9e92-4f3c-abd7-d9df27d3f8e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Common">
+      <UniqueIdentifier>{1d27a01b-59c8-4b3a-aa8b-f5ae2e2bf995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Card">
+      <UniqueIdentifier>{d2420362-468a-482b-b59c-7d2a7ae52390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Resource">
+      <UniqueIdentifier>{1c6c17f7-e0f2-4cf6-9109-1c4559a8b643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\GameFormula">
+      <UniqueIdentifier>{87183980-4109-42e0-837d-5c266fc8d58d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\PrizePool">
+      <UniqueIdentifier>{0d4459f1-fa4e-434f-8c34-cc1abbda23ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Girl">
+      <UniqueIdentifier>{aa2d8dee-5342-4f94-87af-a2d37c21825e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Role">
+      <UniqueIdentifier>{0c6a6bd7-6bcb-466e-8036-7f950fde4497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\GameHall">
+      <UniqueIdentifier>{6e26a16c-640d-4409-bb2e-f0f2b51a8fa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Httplink">
+      <UniqueIdentifier>{6c8bdb72-82cb-4561-8bc8-feccd2217e0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Message">
+      <UniqueIdentifier>{f3e19b9f-d0be-4ae1-b9d7-b8fc1314bff5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Message\CSMessage">
+      <UniqueIdentifier>{c6792c37-f53d-47ab-a339-5739aff332af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Message\DBMessage">
+      <UniqueIdentifier>{7d518f9a-fbb8-4519-98e6-876d5ca88a53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Message\DLMessage">
+      <UniqueIdentifier>{5d5bead3-fc5f-4ad8-bfa3-f8e8eef87aae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Message\GCMessage">
+      <UniqueIdentifier>{925248eb-4541-47f4-b4bb-e0fac0ed678e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Message\GSMessage">
+      <UniqueIdentifier>{f4005259-d6e4-4ede-be9c-029865b355b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Message\GTMessage">
+      <UniqueIdentifier>{7a904aef-cbc6-4733-bea3-69287d6a3aaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Message\PSMessage">
+      <UniqueIdentifier>{ff7ea083-d4ec-4fa0-98da-54fa18719a91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\GameHall\Texas">
+      <UniqueIdentifier>{ae012074-8637-4045-afdf-e091379dde82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\GameHall\Baccarat">
+      <UniqueIdentifier>{287294b1-b3ae-4894-aa3c-d7f1a558fb32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\GameHall\Texas\TexasGame">
+      <UniqueIdentifier>{1d4d6d82-3f39-4744-a440-654d55f2c438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\GameHall\Texas\TexasRole">
+      <UniqueIdentifier>{e671be2c-bdef-473c-b95a-f811e06ebe42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\GameHall\Texas\TexasRoom">
+      <UniqueIdentifier>{e36605bb-ceac-4f2a-9b58-48bdedd8ccbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Resource\JsonTable">
+      <UniqueIdentifier>{f3757960-6073-4661-9c68-e172f0bdb491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Resource\JsonTable\TableBetTea">
+      <UniqueIdentifier>{f840d427-504e-44a1-8e93-c13034fc95ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Resource\JsonTable\TableBroadcast">
+      <UniqueIdentifier>{a01759a5-d9ff-4324-bacd-7795f6797371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Resource\JsonTable\TableGift">
+      <UniqueIdentifier>{3635ba0a-7b7a-409a-857a-032adb4c64cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Resource\JsonTable\TableLimit">
+      <UniqueIdentifier>{a150334e-6a28-4061-b7cd-8a3a3e79176e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\DBCache">
+      <UniqueIdentifier>{ff12b566-0e85-426c-9290-10412032b145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\DBCache\DBHallEntity">
+      <UniqueIdentifier>{f763cf38-1d0f-4d63-b61a-894ab166a3c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Message\HGSMessage">
+      <UniqueIdentifier>{1e6f3357-71c0-4cfb-aa8a-4f6655232f11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Message\WSSMessage">
+      <UniqueIdentifier>{bff98ec4-deee-4804-98f9-6f2c51475a4d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\BaseDefine.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\CenterClient.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\ConfigFile.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\DataBuffer.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\DBClient.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\DBLogClient.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\GameApplication.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\GameServer.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\GameService.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\HttpLinkApplication.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\PlayerClient.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Common\GameEnum.h">
+      <Filter>Logic\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Common\GameMacro.h">
+      <Filter>Logic\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Common\GameStructure.h">
+      <Filter>Logic\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Card\Card.h">
+      <Filter>Logic\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameFormula\GameFormula.h">
+      <Filter>Logic\GameFormula</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Girl\Girl.h">
+      <Filter>Logic\Girl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Girl\GirlManager.h">
+      <Filter>Logic\Girl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasRoom\TexasRoom.h">
+      <Filter>Logic\GameHall\Texas\TexasRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasRoom\TexasRoomManager.h">
+      <Filter>Logic\GameHall\Texas\TexasRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasRole\TexasRole.h">
+      <Filter>Logic\GameHall\Texas\TexasRole</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasGame\TexasGame.h">
+      <Filter>Logic\GameHall\Texas\TexasGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasGame\TexasGameManager.h">
+      <Filter>Logic\GameHall\Texas\TexasGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\GameHall.h">
+      <Filter>Logic\GameHall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Httplink\HttpLinkBase.h">
+      <Filter>Logic\Httplink</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Httplink\HttpLinkEvent.h">
+      <Filter>Logic\Httplink</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Httplink\HttpLinkFB.h">
+      <Filter>Logic\Httplink</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Httplink\HttpLinkManager.h">
+      <Filter>Logic\Httplink</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Httplink\HttpLinkYY.h">
+      <Filter>Logic\Httplink</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Role\Role.h">
+      <Filter>Logic\Role</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Role\RoleAttr.h">
+      <Filter>Logic\Role</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Role\RoleManager.h">
+      <Filter>Logic\Role</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\PrizePool\PrizePool.h">
+      <Filter>Logic\PrizePool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Resource\JsonTable\TableLimit\Tablelimit.h">
+      <Filter>Logic\Resource\JsonTable\TableLimit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Resource\JsonTable\TableGift\Tablegift.h">
+      <Filter>Logic\Resource\JsonTable\TableGift</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Resource\JsonTable\TableBroadcast\Tablebroadcast.h">
+      <Filter>Logic\Resource\JsonTable\TableBroadcast</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Resource\JsonTable\TableBetTea\TableBetTea.h">
+      <Filter>Logic\Resource\JsonTable\TableBetTea</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Resource\ResourceManager.h">
+      <Filter>Logic\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\CSMessage\CSMessage.h">
+      <Filter>Logic\Message\CSMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\DBMessage\DBMessage.h">
+      <Filter>Logic\Message\DBMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\DLMessage\DLMessage.h">
+      <Filter>Logic\Message\DLMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\GCMessage\GCMessage.h">
+      <Filter>Logic\Message\GCMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\GSMessage\GSMessage.h">
+      <Filter>Logic\Message\GSMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\GTMessage\GTMessage.h">
+      <Filter>Logic\Message\GTMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\PSMessage\PSMessage.h">
+      <Filter>Logic\Message\PSMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\GameMessage.h">
+      <Filter>Logic\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\DBCache\DBManager.h">
+      <Filter>Logic\DBCache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\DBCache\DBHallEntity\DBHallEntity.h">
+      <Filter>Logic\DBCache\DBHallEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\DBCache\DBHallEntity\DBHallEntityManager.h">
+      <Filter>Logic\DBCache\DBHallEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\HGSMessage\HGSMessage.h">
+      <Filter>Logic\Message\HGSMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\WSSMessage\WSSMessage.h">
+      <Filter>Logic\Message\WSSMessage</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TeamGameServer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\x64\Debug\Poker.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\BaseDefine.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\CenterClient.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\ConfigFile.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\DataBuffer.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\DBClient.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\DBLogClient.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\GameApplication.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\GameServer.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\GameService.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\HttpLinkApplication.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\main.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\FrameWork\PlayerClient.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Card\Card.cpp">
+      <Filter>Logic\Card</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameFormula\GameFormula.cpp">
+      <Filter>Logic\GameFormula</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Girl\Girl.cpp">
+      <Filter>Logic\Girl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Girl\GirlManager.cpp">
+      <Filter>Logic\Girl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasRoom\TexasRoom.cpp">
+      <Filter>Logic\GameHall\Texas\TexasRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasRoom\TexasRoomManager.cpp">
+      <Filter>Logic\GameHall\Texas\TexasRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasRole\TexasRole.cpp">
+      <Filter>Logic\GameHall\Texas\TexasRole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasRole\TexasRoleEntity.cpp">
+      <Filter>Logic\GameHall\Texas\TexasRole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasRole\TexasRoleMsgRes.cpp">
+      <Filter>Logic\GameHall\Texas\TexasRole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasRole\TexasRoleMsgSync.cpp">
+      <Filter>Logic\GameHall\Texas\TexasRole</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasGame\TexasGame.cpp">
+      <Filter>Logic\GameHall\Texas\TexasGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasGame\TexasGame_DBScene.cpp">
+      <Filter>Logic\GameHall\Texas\TexasGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasGame\TexasGame_DLScene.cpp">
+      <Filter>Logic\GameHall\Texas\TexasGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasGame\TexasGameEntity.cpp">
+      <Filter>Logic\GameHall\Texas\TexasGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasGame\TexasGameManager.cpp">
+      <Filter>Logic\GameHall\Texas\TexasGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasGame\TexasGameMsgDealerReq.cpp">
+      <Filter>Logic\GameHall\Texas\TexasGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasGame\TexasGameMsgDealerRes.cpp">
+      <Filter>Logic\GameHall\Texas\TexasGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasGame\TexasGameMsgDealerSync.cpp">
+      <Filter>Logic\GameHall\Texas\TexasGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasGame\TexasGameMsgReq.cpp">
+      <Filter>Logic\GameHall\Texas\TexasGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasGame\TexasGameMsgRes.cpp">
+      <Filter>Logic\GameHall\Texas\TexasGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\Texas\TexasGame\TexasGameMsgSync.cpp">
+      <Filter>Logic\GameHall\Texas\TexasGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\GameHall\GameHall.cpp">
+      <Filter>Logic\GameHall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Httplink\HttpLinkEvent.cpp">
+      <Filter>Logic\Httplink</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Httplink\HttpLinkFB.cpp">
+      <Filter>Logic\Httplink</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Httplink\HttpLinkManager.cpp">
+      <Filter>Logic\Httplink</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Httplink\HttpLinkYY.cpp">
+      <Filter>Logic\Httplink</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Role\Role.cpp">
+      <Filter>Logic\Role</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Role\RoleAttr.cpp">
+      <Filter>Logic\Role</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Role\RoleManager.cpp">
+      <Filter>Logic\Role</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\PrizePool\PrizePool.cpp">
+      <Filter>Logic\PrizePool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Resource\JsonTable\TableLimit\TableLimit.cpp">
+      <Filter>Logic\Resource\JsonTable\TableLimit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Resource\JsonTable\TableGift\TableGift.cpp">
+      <Filter>Logic\Resource\JsonTable\TableGift</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Resource\JsonTable\TableBroadcast\TableBroadcast.cpp">
+      <Filter>Logic\Resource\JsonTable\TableBroadcast</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Resource\JsonTable\TableBetTea\TableBetTea.cpp">
+      <Filter>Logic\Resource\JsonTable\TableBetTea</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Resource\ResourceManager.cpp">
+      <Filter>Logic\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\CSMessage\CSMessage.cpp">
+      <Filter>Logic\Message\CSMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\CSMessage\CSMessage_Broadcast.cpp">
+      <Filter>Logic\Message\CSMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\CSMessage\CSMessage_GameRole.cpp">
+      <Filter>Logic\Message\CSMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\CSMessage\CSMessage_GameScene.cpp">
+      <Filter>Logic\Message\CSMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\CSMessage\CSMessage_HallRoom.cpp">
+      <Filter>Logic\Message\CSMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\CSMessage\CSMessage_UserLogin.cpp">
+      <Filter>Logic\Message\CSMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\DBMessage\DBMessage.cpp">
+      <Filter>Logic\Message\DBMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\DBMessage\DBMessage_PrizePool.cpp">
+      <Filter>Logic\Message\DBMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\DBMessage\DBMessage_Role.cpp">
+      <Filter>Logic\Message\DBMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\DBMessage\DBMessage_TexasBoard.cpp">
+      <Filter>Logic\Message\DBMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\DBMessage\DBMessage_TexasHistoryBoard.cpp">
+      <Filter>Logic\Message\DBMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\DLMessage\DLMessage.cpp">
+      <Filter>Logic\Message\DLMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\DLMessage\DLMessage_TexasGameBet.cpp">
+      <Filter>Logic\Message\DLMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\DLMessage\DLMessage_UserLogin.cpp">
+      <Filter>Logic\Message\DLMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\DLMessage\DLMessage_UserLogout.cpp">
+      <Filter>Logic\Message\DLMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\GCMessage\GCMessage.cpp">
+      <Filter>Logic\Message\GCMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\GSMessage\GSMessage.cpp">
+      <Filter>Logic\Message\GSMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\GSMessage\GSMessage_GameScene.cpp">
+      <Filter>Logic\Message\GSMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\GSMessage\GSMessage_GirlLogin.cpp">
+      <Filter>Logic\Message\GSMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\GSMessage\GSMessage_HallRoom.cpp">
+      <Filter>Logic\Message\GSMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\GTMessage\GTMessage.cpp">
+      <Filter>Logic\Message\GTMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\GTMessage\GTMessage_Ping.cpp">
+      <Filter>Logic\Message\GTMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\PSMessage\PSMessage.cpp">
+      <Filter>Logic\Message\PSMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\PSMessage\PSMessage_GameScene.cpp">
+      <Filter>Logic\Message\PSMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\GameMessage.cpp">
+      <Filter>Logic\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\DBCache\DBHallHandler.cpp">
+      <Filter>Logic\DBCache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\DBCache\DBManager.cpp">
+      <Filter>Logic\DBCache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\DBCache\DBHallEntity\DBHallEntity.cpp">
+      <Filter>Logic\DBCache\DBHallEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\DBCache\DBHallEntity\DBHallEntityManager.cpp">
+      <Filter>Logic\DBCache\DBHallEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\HGSMessage\HGSMessage.cpp">
+      <Filter>Logic\Message\HGSMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamGS\GameServer\Logic\Message\WSSMessage\WSSMessage.cpp">
+      <Filter>Logic\Message\WSSMessage</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

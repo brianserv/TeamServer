@@ -1,0 +1,16 @@
+2016-01-06 13:26:38 75564
+TeamGate Server  Initial !
+2016-01-06 13:26:38 75564
+[TeamGate Server Connect DB Success !]
+2016-01-06 13:26:38 75564
+[TeamGate Server Load DBGirl Data Success !]
+2016-01-06 13:26:38 75564
+TeamGate Server Start Success !
+2016-01-06 13:26:38 75564
+TeamGate Server Listenning WebPort:11200
+2016-01-06 13:26:38 75564
+[TeamGate Server Connect GameServer IPAddress:[127.0.0.1,11101]]
+2016-01-06 13:26:38 75564
+[TeamGate Server Connect GameServer IPAddress:[127.0.0.1,11102]]
+2016-01-06 13:26:38 75564
+[TeamGate Server Connect GameServer IPAddress:[127.0.0.1,11103]]

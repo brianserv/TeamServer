@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{518ca685-7150-4252-9507-5e0dcbffc8f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic">
+      <UniqueIdentifier>{de30ebc7-c54f-4268-91dc-9c789d30c3a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocols">
+      <UniqueIdentifier>{2475c79f-d14e-4169-b8cd-0f5b2e1f3ee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\DBCache">
+      <UniqueIdentifier>{dd92cee4-2e5c-4ac1-b637-7f7947542569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Message">
+      <UniqueIdentifier>{1cf8a167-a644-43a1-b227-77e52af8b284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocols\WBProtocol">
+      <UniqueIdentifier>{54228c74-9d7e-41ed-86a2-89c458f80a08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocols\BGCProtocol">
+      <UniqueIdentifier>{dc334acb-87c8-4ca3-9c46-260d23e65412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocols\WSSProtocol">
+      <UniqueIdentifier>{410b6bfc-6d44-4048-9ca8-8d149afcd065}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Message\BGCMessage">
+      <UniqueIdentifier>{60dbbd02-2c0e-4546-8bb5-f7b43f29d353}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Message\WSSMessage">
+      <UniqueIdentifier>{b0240859-c4dc-4961-9dd9-805c1008958c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Message\WBMessage">
+      <UniqueIdentifier>{26b50042-39f8-428f-a659-f3d76dd5af32}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\TeamSource\TeamBS\BackendServer\Logic\DBCache\DBManager.h">
+      <Filter>Logic\DBCache</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamBS\BackendServer\FrameWork\BackendApplication.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamBS\BackendServer\FrameWork\BackendServer.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamBS\BackendServer\FrameWork\BackendService.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamBS\BackendServer\FrameWork\BaseDefine.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamBS\BackendServer\FrameWork\CenterClient.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamBS\BackendServer\FrameWork\ConfigFile.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamBS\BackendServer\FrameWork\DataBuffer.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamBS\BackendServer\FrameWork\PlayerClient.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\BGCProtocol\BGCProtocol.h">
+      <Filter>Protocols\BGCProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\BGCProtocol\BGCProtocol_Ping.h">
+      <Filter>Protocols\BGCProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\WBProtocol\WBProtocol.h">
+      <Filter>Protocols\WBProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\WBProtocol\WBProtocol_Ping.h">
+      <Filter>Protocols\WBProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\WSSProtocol\WSSProtocol.h">
+      <Filter>Protocols\WSSProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Protocols\WSSProtocol\WSSProtocol_Online.h">
+      <Filter>Protocols\WSSProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamBS\BackendServer\Logic\Message\BGCMessage\BGCMessage.h">
+      <Filter>Logic\Message\BGCMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamBS\BackendServer\Logic\Message\WBMessage\WBMessage.h">
+      <Filter>Logic\Message\WBMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamBS\BackendServer\Logic\Message\WSSMessage\WSSMessage.h">
+      <Filter>Logic\Message\WSSMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TeamSource\TeamBS\BackendServer\Logic\Message\BackendMessage.h">
+      <Filter>Logic\Message</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\TeamSource\TeamBS\BackendServer\Logic\DBCache\DBManager.cpp">
+      <Filter>Logic\DBCache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamBS\BackendServer\FrameWork\BackendApplication.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamBS\BackendServer\FrameWork\BackendServer.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamBS\BackendServer\FrameWork\BackendService.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamBS\BackendServer\FrameWork\BaseDefine.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamBS\BackendServer\FrameWork\CenterClient.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamBS\BackendServer\FrameWork\ConfigFile.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamBS\BackendServer\FrameWork\DataBuffer.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamBS\BackendServer\FrameWork\main.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamBS\BackendServer\FrameWork\PlayerClient.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamBS\BackendServer\Logic\Message\BGCMessage\BGCMessage.cpp">
+      <Filter>Logic\Message\BGCMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamBS\BackendServer\Logic\Message\WBMessage\WBMessage.cpp">
+      <Filter>Logic\Message\WBMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamBS\BackendServer\Logic\Message\WSSMessage\WSSMessage.cpp">
+      <Filter>Logic\Message\WSSMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TeamSource\TeamBS\BackendServer\Logic\Message\BackendMessage.cpp">
+      <Filter>Logic\Message</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TeamWebBackendServer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\Bin\Platform\Windows\X64\Debug\BackendServer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

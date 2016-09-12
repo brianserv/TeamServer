@@ -1,0 +1,135 @@
+﻿生成启动时间为 2016/1/6 13:35:43。
+     1>项目“E:\TeamServerCluster\TeamServerClusterSln\TeamHallServer\TeamHallServer.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I..\..\TeamSDK\BaseInterface /I..\..\Protocols /I..\..\TeamSDK\Lib\third_lib\mysql\windows\include /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt ..\..\TeamSource\TeamHS\HallServer\FrameWork\HallApplication.cpp ..\..\TeamSource\TeamHS\HallServer\FrameWork\HallServer.cpp ..\..\TeamSource\TeamHS\HallServer\FrameWork\HallService.cpp ..\..\TeamSource\TeamHS\HallServer\FrameWork\BaseDefine.cpp ..\..\TeamSource\TeamHS\HallServer\FrameWork\GameClient.cpp ..\..\TeamSource\TeamHS\HallServer\FrameWork\ConfigFile.cpp ..\..\TeamSource\TeamHS\HallServer\FrameWork\DataBuffer.cpp ..\..\TeamSource\TeamHS\HallServer\FrameWork\main.cpp ..\..\TeamSource\TeamHS\HallServer\FrameWork\PlayerClient.cpp ..\..\TeamSource\TeamHS\HallServer\Logic\DBCache\DBHallEntity\DBHallEntity.cpp ..\..\TeamSource\TeamHS\HallServer\Logic\DBCache\DBHallEntity\DBHallEntityManager.cpp ..\..\TeamSource\TeamHS\HallServer\Logic\DBCache\DBHallHandler.cpp ..\..\TeamSource\TeamHS\HallServer\Logic\DBCache\DBManager.cpp ..\..\TeamSource\TeamHS\HallServer\Logic\Message\HallMessage.cpp ..\..\TeamSource\TeamHS\HallServer\Logic\Message\HGSMessage\HGSMessage.cpp ..\..\TeamSource\TeamHS\HallServer\Logic\Message\WHMessage\WHMessage.cpp ..\..\TeamSource\TeamHS\HallServer\Logic\Message\WSSMessage\WSSMessage.cpp
+         WSSMessage.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         WHMessage.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         HGSMessage.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         HallMessage.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         DBManager.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         DBHallHandler.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         DBHallEntityManager.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         DBHallEntity.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         PlayerClient.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         main.cpp
+     1>c:\program files (x86)\windows kits\8.1\include\um\imagehlp.h(1873): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
+     1>c:\program files (x86)\windows kits\8.1\include\um\imagehlp.h(3519): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
+         DataBuffer.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         ConfigFile.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         GameClient.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         BaseDefine.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         HallService.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         HallServer.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamhs\hallserver\framework\hallserver.cpp(80): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamhs\hallserver\framework\hallserver.cpp(96): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsource\teamhs\hallserver\framework\hallserver.cpp(124): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         HallApplication.cpp
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>e:\teamservercluster\teamsdk\baseinterface\eq_string.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"x64\Debug\TeamHallServer.res" TeamHallServer.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(E:\TeamServerCluster\TeamServerClusterSln\x64\Debug\TeamHallServer.exe) does not match the Linker's OutputFile property value (E:\TeamServerCluster\Bin\Platform\Windows\X64\Debug\TeamHallServer.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\Bin\Platform\Windows\X64\Debug\TeamHallServer.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\TeamSDK\Lib\native_lib\Platform\Windows\X64\Debug /LIBPATH:..\..\TeamSDK\Lib\third_lib\mysql\windows\lib\X64 TeamUtil.lib TeamNet.lib libmysql.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\TeamServerCluster\TeamServerClusterSln\x64\Debug\TeamHallServer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\TeamServerCluster\TeamServerClusterSln\x64\Debug\TeamHallServer.lib" /MACHINE:X64 x64\Debug\TeamHallServer.res
+         x64\Debug\HallApplication.obj
+         x64\Debug\HallServer.obj
+         x64\Debug\HallService.obj
+         x64\Debug\BaseDefine.obj
+         x64\Debug\GameClient.obj
+         x64\Debug\ConfigFile.obj
+         x64\Debug\DataBuffer.obj
+         x64\Debug\main.obj
+         x64\Debug\PlayerClient.obj
+         x64\Debug\DBHallEntity.obj
+         x64\Debug\DBHallEntityManager.obj
+         x64\Debug\DBHallHandler.obj
+         x64\Debug\DBManager.obj
+         x64\Debug\HallMessage.obj
+         x64\Debug\HGSMessage.obj
+         x64\Debug\WHMessage.obj
+         x64\Debug\WSSMessage.obj
+         TeamHallServer.vcxproj -> E:\TeamServerCluster\TeamServerClusterSln\x64\Debug\TeamHallServer.exe
+     1>已完成生成项目“E:\TeamServerCluster\TeamServerClusterSln\TeamHallServer\TeamHallServer.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:16.36

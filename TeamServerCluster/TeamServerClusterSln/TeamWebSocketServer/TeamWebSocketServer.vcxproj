@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\poseidon\src\async_job.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\cbpp\client.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\cbpp\exception.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\cbpp\low_level_client.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\cbpp\low_level_session.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\cbpp\reader.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\cbpp\session.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\cbpp\writer.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\condition_variable.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\config_file.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\csv_parser.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\epoll.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\errno.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\event_base.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\exception.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\file.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\hash.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\http\authorization.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\http\client.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\http\client_reader.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\http\client_writer.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\http\const_strings.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\http\exception.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\http\low_level_client.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\http\low_level_session.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\http\request_headers.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\http\response_headers.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\http\server_reader.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\http\server_writer.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\http\session.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\http\status_codes.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\http\upgraded_session_base.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\http\utilities.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\http\verbs.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\ip_port.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\job_base.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\job_promise.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\json.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\log.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\main.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\module_raii.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\mongodb\bson_builder.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\mongodb\connection.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\mongodb\exception.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\mongodb\object_base.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\mongodb\oid.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\mutex.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\mysql\connection.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\mysql\exception.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\mysql\object_base.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\mysql\thread_context.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\mysql\utilities.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\optional_map.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\profiler.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\protocol_exception.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\raii.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\random.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\recursive_mutex.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\session_base.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\shared_nts.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\singletons\dns_daemon.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\singletons\epoll_daemon.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\singletons\event_dispatcher.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\singletons\job_dispatcher.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\singletons\main_config.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\singletons\module_depository.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\singletons\mongodb_daemon.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\singletons\mysql_daemon.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\singletons\profile_depository.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\singletons\system_http_server.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\singletons\timer_daemon.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\socket_server_base.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\sock_addr.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\ssl_factories.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\ssl_filter_base.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\ssl_raii.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\stream_buffer.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\string.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\system_exception.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\tcp_client_base.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\tcp_server_base.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\tcp_session_base.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\thread.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\time.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\udp_server_base.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\uuid.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\virtual_shared_from_this.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\websocket\exception.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\websocket\handshake.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\websocket\low_level_session.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\websocket\reader.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\websocket\session.cpp" />
+    <ClCompile Include="..\..\..\..\..\poseidon\src\websocket\writer.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\BackendClient.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\BaseDefine.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\ConfigFile.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\DataBuffer.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\HallClient.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\main.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\PlayerClient.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\WebSocketApplication.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\WebSocketServer.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\WebSocketService.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamWS\WebSocketServer\Logic\Message\WBMessage\WBMessage.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamWS\WebSocketServer\Logic\Message\WebMessage.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamWS\WebSocketServer\Logic\Message\WHMessage\WHMessage.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamWS\WebSocketServer\Logic\Message\WSSMessage\WSSMessage.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamWS\WebSocketServer\Logic\WebFrameFilter\WebFrameFilter.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamWS\WebSocketServer\Logic\WebSocket\WebSocketFrameHandler.cpp" />
+    <ClCompile Include="..\..\TeamSource\TeamWS\WebSocketServer\Logic\WebSocket\WebSocketWorker.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\poseidon\src\async_job.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\atomic.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\cbpp\client.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\cbpp\control_codes.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\cbpp\control_message.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\cbpp\exception.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\cbpp\fwd.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\cbpp\low_level_client.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\cbpp\low_level_session.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\cbpp\message_base.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\cbpp\message_generator.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\cbpp\reader.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\cbpp\session.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\cbpp\status_codes.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\cbpp\writer.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\condition_variable.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\config_file.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\csv_parser.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\cxx_util.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\cxx_ver.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\endian.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\epoll.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\errno.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\event_base.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\exception.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\file.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\flags.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\fwd.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\hash.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\http\authorization.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\http\client.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\http\client_reader.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\http\client_writer.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\http\const_strings.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\http\exception.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\http\fwd.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\http\low_level_client.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\http\low_level_session.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\http\request_headers.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\http\response_headers.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\http\server_reader.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\http\server_writer.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\http\session.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\http\status_codes.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\http\upgraded_session_base.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\http\utilities.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\http\verbs.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\ip_port.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\job_base.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\job_promise.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\json.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\log.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\module_config.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\module_raii.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\mongodb\bson_builder.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\mongodb\connection.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\mongodb\exception.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\mongodb\fwd.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\mongodb\object_base.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\mongodb\object_generator.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\mongodb\oid.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\multi_index_map.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\mutex.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\mysql\connection.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\mysql\exception.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\mysql\fwd.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\mysql\object_base.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\mysql\object_generator.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\mysql\thread_context.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\mysql\utilities.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\optional_map.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\precompiled.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\profiler.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\protocol_exception.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\raii.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\random.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\recursive_mutex.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\session_base.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\shared_nts.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\singletons\dns_daemon.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\singletons\epoll_daemon.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\singletons\event_dispatcher.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\singletons\job_dispatcher.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\singletons\main_config.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\singletons\module_depository.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\singletons\mongodb_daemon.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\singletons\mysql_daemon.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\singletons\profile_depository.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\singletons\system_http_server.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\singletons\timer_daemon.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\socket_server_base.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\sock_addr.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\ssl_factories.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\ssl_filter_base.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\ssl_raii.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\stream_buffer.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\string.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\system_exception.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\tcp_client_base.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\tcp_server_base.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\tcp_session_base.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\thread.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\time.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\udp_server_base.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\uuid.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\vint64.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\virtual_shared_from_this.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\websocket\exception.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\websocket\fwd.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\websocket\handshake.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\websocket\low_level_session.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\websocket\opcodes.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\websocket\reader.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\websocket\session.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\websocket\status_codes.hpp" />
+    <ClInclude Include="..\..\..\..\..\poseidon\src\websocket\writer.hpp" />
+    <ClInclude Include="..\..\Protocols\BasePacket.h" />
+    <ClInclude Include="..\..\Protocols\CommonProtocol.h" />
+    <ClInclude Include="..\..\Protocols\WBProtocol\WBProtocol.h" />
+    <ClInclude Include="..\..\Protocols\WBProtocol\WBProtocol_Ping.h" />
+    <ClInclude Include="..\..\Protocols\WHProtocol\WHProtocol.h" />
+    <ClInclude Include="..\..\Protocols\WHProtocol\WHProtocol_Ping.h" />
+    <ClInclude Include="..\..\Protocols\WSSProtocol\WSSProtocol.h" />
+    <ClInclude Include="..\..\Protocols\WSSProtocol\WSSProtocol_Online.h" />
+    <ClInclude Include="..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\BackendClient.h" />
+    <ClInclude Include="..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\BaseDefine.h" />
+    <ClInclude Include="..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\ConfigFile.h" />
+    <ClInclude Include="..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\DataBuffer.h" />
+    <ClInclude Include="..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\HallClient.h" />
+    <ClInclude Include="..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\PlayerClient.h" />
+    <ClInclude Include="..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\WebSocketApplication.h" />
+    <ClInclude Include="..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\WebSocketServer.h" />
+    <ClInclude Include="..\..\TeamSource\TeamWS\WebSocketServer\FrameWork\WebSocketService.h" />
+    <ClInclude Include="..\..\TeamSource\TeamWS\WebSocketServer\Logic\Message\WBMessage\WBMessage.h" />
+    <ClInclude Include="..\..\TeamSource\TeamWS\WebSocketServer\Logic\Message\WebMessage.h" />
+    <ClInclude Include="..\..\TeamSource\TeamWS\WebSocketServer\Logic\Message\WHMessage\WHMessage.h" />
+    <ClInclude Include="..\..\TeamSource\TeamWS\WebSocketServer\Logic\Message\WSSMessage\WSSMessage.h" />
+    <ClInclude Include="..\..\TeamSource\TeamWS\WebSocketServer\Logic\WebFrameFilter\WebFrameFilter.h" />
+    <ClInclude Include="..\..\TeamSource\TeamWS\WebSocketServer\Logic\WebSocket\WebSocketFrameHandler.h" />
+    <ClInclude Include="..\..\TeamSource\TeamWS\WebSocketServer\Logic\WebSocket\WebSocketWorker.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TeamWebSocketServer.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\x64\Debug\TeamWebSocketServer.ico" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3B4DC56A-8E73-4A3A-AAFC-0EF822C8FC3B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>TeamWebSocketServer</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\TeamSDK\BaseInterface;..\..\Protocols;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\..\TeamSDK\Lib\native_lib\Platform\Windows\X64\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OutputFile>..\..\Bin\Platform\Windows\X64\Debug\$(ProjectName).exe</OutputFile>
+      <AdditionalDependencies>TeamUtil.lib;TeamWebsocket.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

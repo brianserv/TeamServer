@@ -1,0 +1,193 @@
+﻿生成启动时间为 2016/1/6 13:34:44。
+     1>项目“E:\TeamServerCluster\TeamServerClusterSln\TeamCenterServer\TeamCenterServer.vcxproj”在节点 4 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I..\..\TeamSDK\BaseInterface /I..\..\Protocols /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /FR"x64\Debug\\" /Gd /TP /errorReport:prompt ..\..\TeamSource\TeamGC\CenterServer\FrameWork\BaseDefine.cpp ..\..\TeamSource\TeamGC\CenterServer\FrameWork\CenterApplication.cpp ..\..\TeamSource\TeamGC\CenterServer\FrameWork\CenterServer.cpp ..\..\TeamSource\TeamGC\CenterServer\FrameWork\CenterService.cpp ..\..\TeamSource\TeamGC\CenterServer\FrameWork\ConfigFile.cpp ..\..\TeamSource\TeamGC\CenterServer\FrameWork\DataBuffer.cpp ..\..\TeamSource\TeamGC\CenterServer\FrameWork\main.cpp ..\..\TeamSource\TeamGC\CenterServer\FrameWork\PlayerClient.cpp ..\..\TeamSource\TeamGC\CenterServer\Logic\Message\BGCMessage\BGCMessage.cpp ..\..\TeamSource\TeamGC\CenterServer\Logic\Message\CenterMessage.cpp ..\..\TeamSource\TeamGC\CenterServer\Logic\Message\WSSMessage\WSSMessage.cpp ..\..\TeamSource\TeamGC\CenterServer\Logic\ServerManager\GameServer.cpp ..\..\TeamSource\TeamGC\CenterServer\Logic\ServerManager\GameServerManager.cpp
+         BaseDefine.cpp
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(190): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(194): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(201): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(205): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+         CenterApplication.cpp
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(190): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(194): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(201): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(205): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+         CenterServer.cpp
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(190): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(194): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(201): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(205): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+     1>..\..\TeamSource\TeamGC\CenterServer\FrameWork\CenterServer.cpp(88): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\TeamSource\TeamGC\CenterServer\FrameWork\CenterServer.cpp(104): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         CenterService.cpp
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(190): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(194): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(201): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(205): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+         ConfigFile.cpp
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(190): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(194): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(201): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(205): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+         DataBuffer.cpp
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(190): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(194): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(201): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(205): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+         main.cpp
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\imagehlp.h(1873): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\imagehlp.h(3519): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
+         PlayerClient.cpp
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(190): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(194): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(201): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(205): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+         BGCMessage.cpp
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(190): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(194): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(201): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(205): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+         CenterMessage.cpp
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(190): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(194): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(201): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(205): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+         WSSMessage.cpp
+         GameServer.cpp
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(190): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(194): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(201): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(205): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+     1>e:\teamservercluster\teamsource\teamgc\centerserver\logic\servermanager\GameServer.h(11): warning C4091: “typedef ”: 没有声明变量时忽略“HallRoomOnlineStatics”的左侧
+         GameServerManager.cpp
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(78): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(78): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(137): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(172): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(181): warning C4267: “=”: 从“size_t”转换到“UINT32”，可能丢失数据
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(190): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(194): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(201): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+     1>E:\TeamServerCluster\TeamSDK\BaseInterface\EQ_String.h(205): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+     1>e:\teamservercluster\teamsource\teamgc\centerserver\logic\servermanager\GameServer.h(11): warning C4091: “typedef ”: 没有声明变量时忽略“HallRoomOnlineStatics”的左侧
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"x64\Debug\TeamCenterServer.res" TeamCenterServer.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(E:\TeamServerCluster\TeamServerClusterSln\x64\Debug\TeamCenterServer.exe) does not match the Linker's OutputFile property value (E:\TeamServerCluster\Bin\Platform\Windows\X64\Debug\TeamCenterServer.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\Bin\Platform\Windows\X64\Debug\TeamCenterServer.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\TeamSDK\Lib\native_lib\Platform\Windows\X64\Debug TeamUtil.lib TeamNet.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\TeamServerCluster\TeamServerClusterSln\x64\Debug\TeamCenterServer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\TeamServerCluster\TeamServerClusterSln\x64\Debug\TeamCenterServer.lib" /MACHINE:X64 x64\Debug\TeamCenterServer.res
+         x64\Debug\BaseDefine.obj
+         x64\Debug\CenterApplication.obj
+         x64\Debug\CenterServer.obj
+         x64\Debug\CenterService.obj
+         x64\Debug\ConfigFile.obj
+         x64\Debug\DataBuffer.obj
+         x64\Debug\main.obj
+         x64\Debug\PlayerClient.obj
+         x64\Debug\BGCMessage.obj
+         x64\Debug\CenterMessage.obj
+         x64\Debug\WSSMessage.obj
+         x64\Debug\GameServer.obj
+         x64\Debug\GameServerManager.obj
+         TeamCenterServer.vcxproj -> E:\TeamServerCluster\TeamServerClusterSln\x64\Debug\TeamCenterServer.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\bscmake.exe /nologo /o"E:\TeamServerCluster\TeamServerClusterSln\x64\Debug\TeamCenterServer.bsc" /n x64\Debug\BaseDefine.sbr x64\Debug\CenterApplication.sbr x64\Debug\CenterServer.sbr x64\Debug\CenterService.sbr x64\Debug\ConfigFile.sbr x64\Debug\DataBuffer.sbr x64\Debug\main.sbr x64\Debug\PlayerClient.sbr x64\Debug\BGCMessage.sbr x64\Debug\CenterMessage.sbr x64\Debug\WSSMessage.sbr x64\Debug\GameServer.sbr x64\Debug\GameServerManager.sbr
+     1>已完成生成项目“E:\TeamServerCluster\TeamServerClusterSln\TeamCenterServer\TeamCenterServer.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:24.37

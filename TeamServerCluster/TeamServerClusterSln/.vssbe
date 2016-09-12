@@ -1,0 +1,274 @@
+﻿{
+  "Header": {
+    "application": "http://visualstudiogallery.msdn.microsoft.com/0d1dbfd7-ed8a-40af-ae39-281bfeca2334/",
+    "Compatibility": "0.9"
+  },
+  "Components": [
+    {
+      "ClassName": "InternalComponent",
+      "Enabled": true
+    },
+    {
+      "ClassName": "UserVariableComponent",
+      "Enabled": true
+    },
+    {
+      "ClassName": "OWPComponent",
+      "Enabled": true
+    },
+    {
+      "ClassName": "FileComponent",
+      "Enabled": true
+    },
+    {
+      "ClassName": "DTEComponent",
+      "Enabled": true
+    },
+    {
+      "ClassName": "BuildComponent",
+      "Enabled": true
+    },
+    {
+      "ClassName": "ConditionComponent",
+      "Enabled": true
+    },
+    {
+      "ClassName": "CommentComponent",
+      "Enabled": true
+    }
+  ],
+  "PreBuild": [
+    {
+      "Enabled": false,
+      "Name": null,
+      "Caption": "",
+      "SupportMSBuild": true,
+      "SupportSBEScripts": true,
+      "IgnoreIfBuildFailed": false,
+      "BuildType": "common",
+      "Confirmation": false,
+      "ToConfiguration": [],
+      "ExecutionOrder": {
+        "$type": "net.r_eg.vsSBE.Events.ExecutionOrder[], vsSolutionBuildEvent",
+        "$values": []
+      },
+      "Process": {
+        "$type": "net.r_eg.vsSBE.Events.EventProcess, vsSolutionBuildEvent",
+        "Waiting": true,
+        "Hidden": true,
+        "TimeLimit": 30
+      },
+      "Mode": {
+        "$type": "net.r_eg.vsSBE.Events.ModeFile, vsSolutionBuildEvent",
+        "Type": "file",
+        "Command": ""
+      }
+    }
+  ],
+  "PostBuild": [
+    {
+      "Enabled": false,
+      "Name": null,
+      "Caption": "",
+      "SupportMSBuild": true,
+      "SupportSBEScripts": true,
+      "IgnoreIfBuildFailed": false,
+      "BuildType": "common",
+      "Confirmation": false,
+      "ToConfiguration": null,
+      "ExecutionOrder": null,
+      "Process": {
+        "$type": "net.r_eg.vsSBE.Events.EventProcess, vsSolutionBuildEvent",
+        "Waiting": true,
+        "Hidden": true,
+        "TimeLimit": 30
+      },
+      "Mode": {
+        "$type": "net.r_eg.vsSBE.Events.ModeFile, vsSolutionBuildEvent",
+        "Type": "file",
+        "Command": ""
+      }
+    }
+  ],
+  "CancelBuild": [
+    {
+      "Enabled": false,
+      "Name": null,
+      "Caption": "",
+      "SupportMSBuild": true,
+      "SupportSBEScripts": true,
+      "IgnoreIfBuildFailed": false,
+      "BuildType": "common",
+      "Confirmation": false,
+      "ToConfiguration": null,
+      "ExecutionOrder": null,
+      "Process": {
+        "$type": "net.r_eg.vsSBE.Events.EventProcess, vsSolutionBuildEvent",
+        "Waiting": true,
+        "Hidden": true,
+        "TimeLimit": 30
+      },
+      "Mode": {
+        "$type": "net.r_eg.vsSBE.Events.ModeFile, vsSolutionBuildEvent",
+        "Type": "file",
+        "Command": ""
+      }
+    }
+  ],
+  "WarningsBuild": [
+    {
+      "Codes": [],
+      "IsWhitelist": true,
+      "Enabled": false,
+      "Name": null,
+      "Caption": "",
+      "SupportMSBuild": true,
+      "SupportSBEScripts": true,
+      "IgnoreIfBuildFailed": false,
+      "BuildType": "common",
+      "Confirmation": false,
+      "ToConfiguration": null,
+      "ExecutionOrder": null,
+      "Process": {
+        "$type": "net.r_eg.vsSBE.Events.EventProcess, vsSolutionBuildEvent",
+        "Waiting": true,
+        "Hidden": true,
+        "TimeLimit": 30
+      },
+      "Mode": {
+        "$type": "net.r_eg.vsSBE.Events.ModeFile, vsSolutionBuildEvent",
+        "Type": "file",
+        "Command": ""
+      }
+    }
+  ],
+  "ErrorsBuild": [
+    {
+      "Codes": [],
+      "IsWhitelist": true,
+      "Enabled": false,
+      "Name": null,
+      "Caption": "",
+      "SupportMSBuild": true,
+      "SupportSBEScripts": true,
+      "IgnoreIfBuildFailed": false,
+      "BuildType": "common",
+      "Confirmation": false,
+      "ToConfiguration": null,
+      "ExecutionOrder": null,
+      "Process": {
+        "$type": "net.r_eg.vsSBE.Events.EventProcess, vsSolutionBuildEvent",
+        "Waiting": true,
+        "Hidden": true,
+        "TimeLimit": 30
+      },
+      "Mode": {
+        "$type": "net.r_eg.vsSBE.Events.ModeFile, vsSolutionBuildEvent",
+        "Type": "file",
+        "Command": ""
+      }
+    }
+  ],
+  "OWPBuild": [
+    {
+      "Match": null,
+      "Enabled": false,
+      "Name": null,
+      "Caption": "",
+      "SupportMSBuild": true,
+      "SupportSBEScripts": true,
+      "IgnoreIfBuildFailed": false,
+      "BuildType": "common",
+      "Confirmation": false,
+      "ToConfiguration": null,
+      "ExecutionOrder": null,
+      "Process": {
+        "$type": "net.r_eg.vsSBE.Events.EventProcess, vsSolutionBuildEvent",
+        "Waiting": true,
+        "Hidden": true,
+        "TimeLimit": 30
+      },
+      "Mode": {
+        "$type": "net.r_eg.vsSBE.Events.ModeFile, vsSolutionBuildEvent",
+        "Type": "file",
+        "Command": ""
+      }
+    }
+  ],
+  "Transmitter": [
+    {
+      "Enabled": false,
+      "Name": null,
+      "Caption": "",
+      "SupportMSBuild": true,
+      "SupportSBEScripts": true,
+      "IgnoreIfBuildFailed": false,
+      "BuildType": "common",
+      "Confirmation": false,
+      "ToConfiguration": null,
+      "ExecutionOrder": null,
+      "Process": {
+        "$type": "net.r_eg.vsSBE.Events.EventProcess, vsSolutionBuildEvent",
+        "Waiting": true,
+        "Hidden": true,
+        "TimeLimit": 30
+      },
+      "Mode": {
+        "$type": "net.r_eg.vsSBE.Events.ModeFile, vsSolutionBuildEvent",
+        "Type": "file",
+        "Command": ""
+      }
+    }
+  ],
+  "CommandEvent": [
+    {
+      "Filters": null,
+      "Enabled": false,
+      "Name": null,
+      "Caption": "",
+      "SupportMSBuild": true,
+      "SupportSBEScripts": true,
+      "IgnoreIfBuildFailed": false,
+      "BuildType": "common",
+      "Confirmation": false,
+      "ToConfiguration": null,
+      "ExecutionOrder": null,
+      "Process": {
+        "$type": "net.r_eg.vsSBE.Events.EventProcess, vsSolutionBuildEvent",
+        "Waiting": true,
+        "Hidden": true,
+        "TimeLimit": 30
+      },
+      "Mode": {
+        "$type": "net.r_eg.vsSBE.Events.ModeFile, vsSolutionBuildEvent",
+        "Type": "file",
+        "Command": ""
+      }
+    }
+  ],
+  "Logging": [
+    {
+      "Enabled": false,
+      "Name": null,
+      "Caption": "",
+      "SupportMSBuild": true,
+      "SupportSBEScripts": true,
+      "IgnoreIfBuildFailed": false,
+      "BuildType": "common",
+      "Confirmation": false,
+      "ToConfiguration": null,
+      "ExecutionOrder": null,
+      "Process": {
+        "$type": "net.r_eg.vsSBE.Events.EventProcess, vsSolutionBuildEvent",
+        "Waiting": false,
+        "Hidden": true,
+        "TimeLimit": 30
+      },
+      "Mode": {
+        "$type": "net.r_eg.vsSBE.Events.ModeFile, vsSolutionBuildEvent",
+        "Type": "file",
+        "Command": ""
+      }
+    }
+  ]
+}
