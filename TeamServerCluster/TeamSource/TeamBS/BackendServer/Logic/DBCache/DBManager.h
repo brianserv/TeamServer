@@ -1,7 +1,7 @@
 #pragma once
 #ifndef  DB_MANAGER_H
 #define  DB_MANAGER_H
-
+//mysql connector
 #include "EQ_MySqlConnector.h"
 
 #include "EQ_DataType.h"
